@@ -47,3 +47,138 @@ button.accept-policy[b-gyeonudvss] {
   white-space: nowrap;
   line-height: 60px;
 }
+
+*[b-gyeonudvss] {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body[b-gyeonudvss] {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.container[b-gyeonudvss] {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar[b-gyeonudvss] {
+  width: 250px;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.sidebar .logo[b-gyeonudvss] {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.sidebar .menu a[b-gyeonudvss] {
+  text-decoration: none;
+  color: white;
+  padding: 0.75rem;
+  display: block;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.sidebar .menu a.active[b-gyeonudvss],
+.sidebar .menu a:hover[b-gyeonudvss] {
+  background: #34495e;
+}
+
+.main[b-gyeonudvss] {
+  flex: 1;
+  background: #f4f6f8;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.main-header[b-gyeonudvss] {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.menu-toggle[b-gyeonudvss] {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.user-info[b-gyeonudvss] {
+  font-weight: bold;
+}
+
+.dashboard-cards[b-gyeonudvss] {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card[b-gyeonudvss] {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card span[b-gyeonudvss] {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.table-section[b-gyeonudvss] {
+  margin-top: 2rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+table[b-gyeonudvss] {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th[b-gyeonudvss], td[b-gyeonudvss] {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .sidebar[b-gyeonudvss] {
+    transform: translateX(-100%);
+    position: absolute;
+    height: 100%;
+    z-index: 1000;
+  }
+
+  .sidebar.open[b-gyeonudvss] {
+    transform: translateX(0);
+  }
+
+  .menu-toggle[b-gyeonudvss] {
+    display: block;
+  }
+}
+
