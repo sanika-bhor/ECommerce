@@ -38,7 +38,7 @@ namespace ECommerceApplication.Repository
                     int id = int.Parse(reader["ProductId"].ToString());
                     string title = reader["Title"].ToString();
                     string description = reader["Description"].ToString();
-                    int quantity = int.Parse(reader["Quntity"].ToString());
+                    int quantity = int.Parse(reader["Quantity"].ToString());
                     double unitPrice = double.Parse(reader["UnitPrice"].ToString());
 
                     Product product = new Product

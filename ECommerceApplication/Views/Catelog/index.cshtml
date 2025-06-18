@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"]="product catelog";
+}
+
+<div class="=main">
+    <h1>Products Catelog</h1>
+
+    @{
+        List<Product> products = (List<Product>)ViewData["allProducts"];
+        <div>
+            @foreach(Product product in products)
+            {
+                <div>
+                    <p>@product.ProductTitle</p>
+                </div>
+            }
+        </div>
+    }
+</div>

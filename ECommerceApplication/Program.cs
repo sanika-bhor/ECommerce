@@ -1,9 +1,17 @@
+using ECommerceApplication.Repository;
+using ECommerceApplication.Repository.Interfaces;
+using ECommerceApplication.Services;
+using ECommerceApplication.Services.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductService, ProductServices>();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = A:\TAP\GitHub\ECommerce\ECommerceApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Catelog/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWxvZ1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
