@@ -18,9 +18,9 @@ namespace ECommerceApplication.Repository
         public ProductRepository()
         {
             // create database connection;
-             connection = DatabaseConnection.getConnection();
+            connection = DatabaseConnection.getConnection();
         }
-//getAll Products Data
+        //getAll Products Data
         public List<Product> getAllProduct()
         {
             IDbCommand cmd = new MySqlCommand();
@@ -65,7 +65,7 @@ namespace ECommerceApplication.Repository
             }
             return products;
         }
-   public Product getProductById(int pid)
+        public Product getProductById(int pid)
         {
             Product product = null;
             IDbConnection conn = DatabaseConnection.getConnection();
@@ -113,8 +113,6 @@ namespace ECommerceApplication.Repository
             }
             return product;
         }
-
-
         public Product getProductByTitle(string ptitle)
         {
             Product product = null;
@@ -164,25 +162,107 @@ namespace ECommerceApplication.Repository
             return product;
         }
 
-
-
-
-
         public bool addProduct(Product product)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            try
+            {
+                conn.Open();
+                string query = "insert into product values(@productid,@title,@description,@unitprice,@quantity,@image)";
+                cmd.Parameters.Add(new MySqlParameter("@productid", product.ProductId));
+
+                cmd.Parameters.Add(new MySqlParameter("@title", product.ProductTitle));
+                cmd.Parameters.Add(new MySqlParameter("@descriptpion", product.Description));
+                cmd.Parameters.Add(new MySqlParameter("@unitprice", product.UnitPrice));
+                cmd.Parameters.Add(new MySqlParameter("@quantity", product.Quantity));
+                cmd.Parameters.Add(new MySqlParameter("@image", product.ProductImage));
+                cmd.CommandText = query;
+                cmd.Connection = conn;
+                cmd.ExecuteNonQuery();
+                status = true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return status;
         }
 
         public bool deleteProduct(int id)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            string query = "delete from product where ProductId=@id";
+            cmd.Parameters.Add(new MySqlParameter("@id", id));
+            cmd.CommandText = query;
+            cmd.Connection = conn;
+
+            try
+            {
+                conn.Open();
+                cmd.ExecuteNonQuery();
+                status = true;
+            }
+            catch (MySqlException exp)
+            {
+                string msg = exp.Message;
+                Console.WriteLine(msg);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return status;
         }
 
 
 
         public bool updateProduct(Product product)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            try
+            {
+                conn.Open();
+                string query = "update product set Title=@title, Description=@description, UnitPrice=@unitprice, Quantity=@quantity Image=@image where ProductId=@id";
+                cmd.Parameters.Add(new MySqlParameter("@productid", product.ProductId));
+
+                cmd.Parameters.Add(new MySqlParameter("@title", product.ProductTitle));
+                cmd.Parameters.Add(new MySqlParameter("@descriptpion", product.Description));
+                cmd.Parameters.Add(new MySqlParameter("@unitprice", product.UnitPrice));
+                cmd.Parameters.Add(new MySqlParameter("@quantity", product.Quantity));
+                cmd.Parameters.Add(new MySqlParameter("@image", product.ProductImage));
+                cmd.CommandText = query;
+                cmd.Connection = conn;
+                cmd.ExecuteNonQuery();
+                status = true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return status;
         }
     }
 }
