@@ -12,7 +12,7 @@ namespace ECommerceApplication.Repository
     public class ProductRepository : IProductRepository
     {
         // Initialize products list
-        public List<Product> products = new List<Product>();
+    
         //create connection 
         IDbConnection connection;
         public ProductRepository()
@@ -23,6 +23,7 @@ namespace ECommerceApplication.Repository
         //getAll Products Data
         public List<Product> getAllProduct()
         {
+             List<Product> products = new List<Product>();
             IDbCommand cmd = new MySqlCommand();
             cmd.CommandText = "select * from product";
             cmd.Connection = connection;
@@ -47,7 +48,7 @@ namespace ECommerceApplication.Repository
                         Description = description,
                         Quantity = quantity,
                         UnitPrice = unitPrice,
-                        ProductImage=image
+                        ProductImage = image
                     };
 
                     products.Add(product);
@@ -77,6 +78,8 @@ namespace ECommerceApplication.Repository
             cmd.CommandText = query;
             cmd.Connection = conn;
             IDataReader reader = null;
+
+            
             try
             {
                 conn.Open();
@@ -116,9 +119,9 @@ namespace ECommerceApplication.Repository
             return product;
         }
 
-       public List<Product> getProductByCategoryId(int categoryid)
+        public List<Product> getProductByCategoryId(int categoryid)
         {
-            List<Product> products = null;
+            List<Product> products = new List<Product>();
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = new MySqlCommand();
             string query = "select * from product where category_id=@id";
@@ -130,27 +133,29 @@ namespace ECommerceApplication.Repository
             {
                 conn.Open();
                 reader = cmd.ExecuteReader();
-                reader.Read();
-                int id = int.Parse(reader["ProductId"].ToString());
-                string title = reader["Title"].ToString();
-                string description = reader["Description"].ToString();
-                int unitPrice = int.Parse(reader["UnitPrice"].ToString());
-                int quntity = int.Parse(reader["Quantity"].ToString());
-                string image = reader["Image"].ToString();
-
-
-                Product product = new Product
+                while (reader.Read())
                 {
-                    ProductId = id,
-                    ProductTitle = title,
-                    Description = description,
-                    UnitPrice = unitPrice,
-                    Quantity = quntity,
-                    ProductImage = image
-                };
-                products.Add(product);
-                conn.Close();
+                    int id = int.Parse(reader["ProductId"].ToString());
+                    string title = reader["Title"].ToString();
+                    string description = reader["Description"].ToString();
+                    int quantity = int.Parse(reader["Quantity"].ToString());
+                    double unitPrice = double.Parse(reader["UnitPrice"].ToString());
+                    string image = reader["Image"].ToString();
 
+                    Product product = new Product
+                    {
+                        ProductId = id,
+                        ProductTitle = title,
+                        Description = description,
+                        Quantity = quantity,
+                        UnitPrice = unitPrice,
+                        ProductImage = image
+                    };
+
+                    products.Add(product);
+
+                }
+                conn.Close();
             }
             catch (Exception e)
             {
@@ -227,7 +232,7 @@ namespace ECommerceApplication.Repository
                 cmd.Parameters.Add(new MySqlParameter("@productid", product.ProductId));
 
                 cmd.Parameters.Add(new MySqlParameter("@title", product.ProductTitle));
-                cmd.Parameters.Add(new MySqlParameter("@descriptpion", product.Description));
+                cmd.Parameters.Add(new MySqlParameter("@description", product.Description));
                 cmd.Parameters.Add(new MySqlParameter("@unitprice", product.UnitPrice));
                 cmd.Parameters.Add(new MySqlParameter("@quantity", product.Quantity));
                 cmd.Parameters.Add(new MySqlParameter("@image", product.ProductImage));
@@ -291,7 +296,7 @@ namespace ECommerceApplication.Repository
             try
             {
                 conn.Open();
-                string query = "update product set Title=@title, Description=@description, UnitPrice=@unitprice, Quantity=@quantity Image=@image where ProductId=@id";
+                string query = "update product set Title=@title, Description=@description, UnitPrice=@unitprice, Quantity=@quantity, Image=@image where ProductId=@id";
                 cmd.Parameters.Add(new MySqlParameter("@productid", product.ProductId));
 
                 cmd.Parameters.Add(new MySqlParameter("@title", product.ProductTitle));

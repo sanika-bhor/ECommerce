@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\download.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\download.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\mobile.png",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\mobile.png"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Gerbera.png",
       "PackagePath": "staticwebassets\\images\\flowers\\Gerbera.png"
     },
