@@ -9,22 +9,22 @@ using MySql.Data.MySqlClient;
 namespace ECommerceApplication.Repository
 {
 
-    public class ProductRepository : IProductRepository
+    public class CategoryRepository : ICategoryRepository
     {
         // Initialize products list
-        public List<Product> products = new List<Product>();
+        public List<Categories> categories = new List<Categories>();
         //create connection 
         IDbConnection connection;
-        public ProductRepository()
+        public CategoryRepository()
         {
             // create database connection;
             connection = DatabaseConnection.getConnection();
         }
         //getAll Products Data
-        public List<Product> getAllProduct()
+        public List<Categories> getAllCategories()
         {
             IDbCommand cmd = new MySqlCommand();
-            cmd.CommandText = "select * from product";
+            cmd.CommandText = "select * from categories";
             cmd.Connection = connection;
             IDataReader reader = null;
             try
@@ -33,24 +33,15 @@ namespace ECommerceApplication.Repository
                 reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {
-                    int id = int.Parse(reader["ProductId"].ToString());
-                    string title = reader["Title"].ToString();
-                    string description = reader["Description"].ToString();
-                    int quantity = int.Parse(reader["Quantity"].ToString());
-                    double unitPrice = double.Parse(reader["UnitPrice"].ToString());
-                    string image = reader["Image"].ToString();
-
-                    Product product = new Product
+                    int id = int.Parse(reader["id"].ToString());
+                    string name = reader["name"].ToString();
+                    Categories category = new Categories
                     {
-                        ProductId = id,
-                        ProductTitle = title,
-                        Description = description,
-                        Quantity = quantity,
-                        UnitPrice = unitPrice,
-                        ProductImage=image
+                        CategoryId = id,
+                        CategoryName = name
                     };
 
-                    products.Add(product);
+                    categories.Add(category);
 
                 }
             }
@@ -65,15 +56,15 @@ namespace ECommerceApplication.Repository
                     connection.Close();
                 }
             }
-            return products;
+            return categories;
         }
-        public Product getProductById(int pid)
+        public Categories getCategoryById(int categoriesid)
         {
-            Product product = null;
+            Categories category = null;
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = new MySqlCommand();
-            string query = "select * from product where ProductId=@id";
-            cmd.Parameters.Add(new MySqlParameter("@id", pid));
+            string query = "select * from categories where id=@id";
+            cmd.Parameters.Add(new MySqlParameter("@id", categoriesid));
             cmd.CommandText = query;
             cmd.Connection = conn;
             IDataReader reader = null;
@@ -82,23 +73,14 @@ namespace ECommerceApplication.Repository
                 conn.Open();
                 reader = cmd.ExecuteReader();
                 reader.Read();
-                int id = int.Parse(reader["ProductId"].ToString());
-                string title = reader["Title"].ToString();
-                string description = reader["Description"].ToString();
-                int unitPrice = int.Parse(reader["UnitPrice"].ToString());
-                int quntity = int.Parse(reader["Quantity"].ToString());
-                string image = reader["Image"].ToString();
-
-
-                product = new Product
+                int id = int.Parse(reader["id"].ToString());
+                string name = reader["name"].ToString();
+                category = new Categories
                 {
-                    ProductId = id,
-                    ProductTitle = title,
-                    Description = description,
-                    UnitPrice = unitPrice,
-                    Quantity = quntity,
-                    ProductImage = image
+                    CategoryId = id,
+                    CategoryName = name
                 };
+
                 conn.Close();
 
             }
@@ -113,15 +95,16 @@ namespace ECommerceApplication.Repository
                     conn.Close();
                 }
             }
-            return product;
+
+            return category;
         }
-        public Product getProductByTitle(string ptitle)
+        public Categories getCategoryByName(string categoryname)
         {
-            Product product = null;
+            Categories category=null;
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = new MySqlCommand();
-            string query = "select * from product where Title=@title";
-            cmd.Parameters.Add(new MySqlParameter("@title", ptitle));
+            string query = "select * from categories where name=@title";
+            cmd.Parameters.Add(new MySqlParameter("@title", categoryname));
             cmd.CommandText = query;
             cmd.Connection = conn;
             IDataReader reader = null;
@@ -130,23 +113,14 @@ namespace ECommerceApplication.Repository
                 conn.Open();
                 reader = cmd.ExecuteReader();
                 reader.Read();
-                int id = int.Parse(reader["ProductId"].ToString());
-                string title = reader["Title"].ToString();
-                string description = reader["Description"].ToString();
-                int unitPrice = int.Parse(reader["UnitPrice"].ToString());
-                int quntity = int.Parse(reader["Quantity"].ToString());
-                string image = reader["Image"].ToString();
-
-
-                product = new Product
+                int id = int.Parse(reader["id"].ToString());
+                string name = reader["name"].ToString();
+                category = new Categories
                 {
-                    ProductId = id,
-                    ProductTitle = title,
-                    Description = description,
-                    UnitPrice = unitPrice,
-                    Quantity = quntity,
-                    ProductImage = image
+                    CategoryId = id,
+                    CategoryName = name
                 };
+
                 conn.Close();
 
             }
@@ -161,10 +135,10 @@ namespace ECommerceApplication.Repository
                     conn.Close();
                 }
             }
-            return product;
+            return category;
         }
 
-        public bool addProduct(Product product)
+        public bool addNewCategory(Categories categories)
         {
             bool status = false;
             IDbConnection conn = DatabaseConnection.getConnection();
@@ -172,14 +146,10 @@ namespace ECommerceApplication.Repository
             try
             {
                 conn.Open();
-                string query = "insert into product values(@productid,@title,@description,@unitprice,@quantity,@image)";
-                cmd.Parameters.Add(new MySqlParameter("@productid", product.ProductId));
+                string query = "insert into categories values(@id,@name)";
+                cmd.Parameters.Add(new MySqlParameter("@id", categories.CategoryId));
+                cmd.Parameters.Add(new MySqlParameter("@name", categories.CategoryName));
 
-                cmd.Parameters.Add(new MySqlParameter("@title", product.ProductTitle));
-                cmd.Parameters.Add(new MySqlParameter("@descriptpion", product.Description));
-                cmd.Parameters.Add(new MySqlParameter("@unitprice", product.UnitPrice));
-                cmd.Parameters.Add(new MySqlParameter("@quantity", product.Quantity));
-                cmd.Parameters.Add(new MySqlParameter("@image", product.ProductImage));
                 cmd.CommandText = query;
                 cmd.Connection = conn;
                 cmd.ExecuteNonQuery();
@@ -199,12 +169,12 @@ namespace ECommerceApplication.Repository
             return status;
         }
 
-        public bool deleteProduct(int id)
+        public bool deleteCategory(int id)
         {
             bool status = false;
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = new MySqlCommand();
-            string query = "delete from product where ProductId=@id";
+            string query = "delete from categories where id=@id";
             cmd.Parameters.Add(new MySqlParameter("@id", id));
             cmd.CommandText = query;
             cmd.Connection = conn;
@@ -230,9 +200,7 @@ namespace ECommerceApplication.Repository
             return status;
         }
 
-
-
-        public bool updateProduct(Product product)
+        public bool updateCategory(Categories categories)
         {
             bool status = false;
             IDbConnection conn = DatabaseConnection.getConnection();
@@ -240,14 +208,8 @@ namespace ECommerceApplication.Repository
             try
             {
                 conn.Open();
-                string query = "update product set Title=@title, Description=@description, UnitPrice=@unitprice, Quantity=@quantity Image=@image where ProductId=@id";
-                cmd.Parameters.Add(new MySqlParameter("@productid", product.ProductId));
-
-                cmd.Parameters.Add(new MySqlParameter("@title", product.ProductTitle));
-                cmd.Parameters.Add(new MySqlParameter("@descriptpion", product.Description));
-                cmd.Parameters.Add(new MySqlParameter("@unitprice", product.UnitPrice));
-                cmd.Parameters.Add(new MySqlParameter("@quantity", product.Quantity));
-                cmd.Parameters.Add(new MySqlParameter("@image", product.ProductImage));
+                string query = "update categories set name=@name where id=@id";
+                cmd.Parameters.Add(new MySqlParameter("@id", categories.CategoryId));
                 cmd.CommandText = query;
                 cmd.Connection = conn;
                 cmd.ExecuteNonQuery();
