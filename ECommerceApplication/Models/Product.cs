@@ -7,8 +7,8 @@ namespace ECommerceApplication.Models
         public string Description { get; set; }
         public int Quantity { get; set; }
         public double UnitPrice { get; set; }
-
         public string ProductImage { get; set; }
+
 
         public Product()
         {

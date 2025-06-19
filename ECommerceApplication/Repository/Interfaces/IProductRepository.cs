@@ -5,10 +5,10 @@ namespace ECommerceApplication.Repository.Interfaces
     public interface IProductRepository
     {
         List<Product> getAllProduct();
-        Product getProductById();
-        Product getProductByTitle();
-        bool addProduct();
-        bool updateProduct();
-        bool deleteProduct();
+        Product getProductById(int id);
+        Product getProductByTitle(string title);
+        bool addProduct(Product product);
+        bool updateProduct(Product product);
+        bool deleteProduct(int id);
     }
 }

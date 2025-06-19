@@ -20,8 +20,6 @@ namespace ECommerceApplication.Repository
             // create database connection;
              connection = DatabaseConnection.getConnection();
         }
-
-
 //getAll Products Data
         public List<Product> getAllProduct()
         {
@@ -67,36 +65,122 @@ namespace ECommerceApplication.Repository
             }
             return products;
         }
+   public Product getProductById(int pid)
+        {
+            Product product = null;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            string query = "select * from product where ProductId=@id";
+            cmd.Parameters.Add(new MySqlParameter("@id", pid));
+            cmd.CommandText = query;
+            cmd.Connection = conn;
+            IDataReader reader = null;
+            try
+            {
+                conn.Open();
+                reader = cmd.ExecuteReader();
+                reader.Read();
+                int id = int.Parse(reader["ProductId"].ToString());
+                string title = reader["Title"].ToString();
+                string description = reader["Description"].ToString();
+                int unitPrice = int.Parse(reader["UnitPrice"].ToString());
+                int quntity = int.Parse(reader["Quantity"].ToString());
+                string image = reader["Image"].ToString();
+
+
+                product = new Product
+                {
+                    ProductId = id,
+                    ProductTitle = title,
+                    Description = description,
+                    UnitPrice = unitPrice,
+                    Quantity = quntity,
+                    ProductImage = image
+                };
+                conn.Close();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return product;
+        }
+
+
+        public Product getProductByTitle(string ptitle)
+        {
+            Product product = null;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            string query = "select * from product where ProductId=@title";
+            cmd.Parameters.Add(new MySqlParameter("@title", ptitle));
+            cmd.CommandText = query;
+            cmd.Connection = conn;
+            IDataReader reader = null;
+            try
+            {
+                conn.Open();
+                reader = cmd.ExecuteReader();
+                reader.Read();
+                int id = int.Parse(reader["ProductId"].ToString());
+                string title = reader["Title"].ToString();
+                string description = reader["Description"].ToString();
+                int unitPrice = int.Parse(reader["UnitPrice"].ToString());
+                int quntity = int.Parse(reader["Quantity"].ToString());
+                string image = reader["Image"].ToString();
+
+
+                product = new Product
+                {
+                    ProductId = id,
+                    ProductTitle = title,
+                    Description = description,
+                    UnitPrice = unitPrice,
+                    Quantity = quntity,
+                    ProductImage = image
+                };
+                conn.Close();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return product;
+        }
 
 
 
 
 
-
-
-        public bool addProduct()
+        public bool addProduct(Product product)
         {
             throw new NotImplementedException();
         }
 
-        public bool deleteProduct()
+        public bool deleteProduct(int id)
         {
             throw new NotImplementedException();
         }
 
-      
 
-        public Product getProductById()
-        {
-            throw new NotImplementedException();
-        }
 
-        public Product getProductByTitle()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool updateProduct()
+        public bool updateProduct(Product product)
         {
             throw new NotImplementedException();
         }
