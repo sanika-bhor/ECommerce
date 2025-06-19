@@ -27,6 +27,12 @@ namespace ECommerceApplication.Services
             return product;
         }
 
+        public List<Product> getProductByCategoryId(int id)
+        {
+            List<Product> products = _productRepository.getProductByCategoryId(id);
+            return products;
+        }
+
         public Product getProductByTitle(string title)
         {
             Product product = _productRepository.getProductByTitle(title);

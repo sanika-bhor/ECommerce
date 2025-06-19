@@ -6,6 +6,7 @@ namespace ECommerceApplication.Repository.Interfaces
     {
         List<Product> getAllProduct();
         Product getProductById(int id);
+        List<Product> getProductByCategoryId(int id);
         Product getProductByTitle(string title);
         bool addProduct(Product product);
         bool updateProduct(Product product);

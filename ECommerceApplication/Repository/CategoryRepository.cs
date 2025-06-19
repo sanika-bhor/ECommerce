@@ -8,7 +8,6 @@ using MySql.Data.MySqlClient;
 
 namespace ECommerceApplication.Repository
 {
-
     public class CategoryRepository : ICategoryRepository
     {
         // Initialize products list

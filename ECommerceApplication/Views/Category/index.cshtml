@@ -1,18 +1,18 @@
 @{
-    ViewData["Title"]="product catelog";
+    ViewData["Title"] = "product catelog";
 }
 <link rel="stylesheet" href="~/css/CatelogStyle.css" />
-<div class="=main">
+<div class="main">
     <h1>All products</h1>
     <div>
         <a href="/catelog/index">All Products</a>
-        <a href="/category/index">Flowers</a>
+        <a href="/category/Flowers">Flowers</a>
     </div>
 
     @{
-        List<Product> products = (List<Product>)ViewData["allProducts"];
+        List<Product> products = (List<Product>)ViewData["flowerProducts"];
         <div class="container">
-            @foreach(Product product in products)
+            @foreach (Product product in products)
             {
                 <div class="cart">
                     <h2>@product.ProductTitle</h2>
@@ -23,7 +23,7 @@
                     <p><b>Price:</b> @product.UnitPrice</p>
                     @* <p><b>Available stock:</b> @product.Quantity</p> *@
                     <a href="/Products/Details/@product.ProductId"> <button>Details</button></a>
-                    
+
                 </div>
             }
         </div>

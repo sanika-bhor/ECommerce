@@ -115,6 +115,57 @@ namespace ECommerceApplication.Repository
             }
             return product;
         }
+
+       public List<Product> getProductByCategoryId(int categoryid)
+        {
+            List<Product> products = null;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            string query = "select * from product where category_id=@id";
+            cmd.Parameters.Add(new MySqlParameter("@id", categoryid));
+            cmd.CommandText = query;
+            cmd.Connection = conn;
+            IDataReader reader = null;
+            try
+            {
+                conn.Open();
+                reader = cmd.ExecuteReader();
+                reader.Read();
+                int id = int.Parse(reader["ProductId"].ToString());
+                string title = reader["Title"].ToString();
+                string description = reader["Description"].ToString();
+                int unitPrice = int.Parse(reader["UnitPrice"].ToString());
+                int quntity = int.Parse(reader["Quantity"].ToString());
+                string image = reader["Image"].ToString();
+
+
+                Product product = new Product
+                {
+                    ProductId = id,
+                    ProductTitle = title,
+                    Description = description,
+                    UnitPrice = unitPrice,
+                    Quantity = quntity,
+                    ProductImage = image
+                };
+                products.Add(product);
+                conn.Close();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return products;
+
+        }
         public Product getProductByTitle(string ptitle)
         {
             Product product = null;
