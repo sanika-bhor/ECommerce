@@ -5,12 +5,48 @@
       "PackagePath": "staticwebassets\\ECommerceApplication.bundle.scp.css"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\CatelogStyle.css",
+      "PackagePath": "staticwebassets\\css\\CatelogStyle.css"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Gerbera.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Lotus.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lotus.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Mogra.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\Mogra.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Rose.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\aster.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\aster.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\hibiscus.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\hibiscus.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\lily.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\lily.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\tulip.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\tulip.png"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\site.js",

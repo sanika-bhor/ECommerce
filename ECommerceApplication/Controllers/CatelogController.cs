@@ -26,10 +26,19 @@ public class CatelogController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+    // public IActionResult DetailsWithId(int id)
+    // {
+    //     Product product = _srv.getProductById(id);
+    //     ViewData["productById"] = product;
+    //     return View();
+    // }
+
+    // public IActionResult DetailsWithTitle(string title)
+    // {
+    //     Product product = _srv.getProductByTitle(title);
+    //     ViewData["productByTitle"] = product;
+    //     return View();
+    // }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

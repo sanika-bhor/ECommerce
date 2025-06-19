@@ -6,7 +6,7 @@ namespace ECommerceApplication.Services
 {
     public class ProductServices:IProductService
     {
-        List<Product> products = new List<Product>();
+        
         private readonly IProductRepository _productRepository;
 
         public ProductServices(IProductRepository repo)
@@ -17,34 +17,40 @@ namespace ECommerceApplication.Services
         
         public List<Product> getAllProduct()
         {
+            List<Product> products = new List<Product>();
             products = _productRepository.getAllProduct();
             return products;
         }
-
-        public bool addProduct()
+        public Product getProductById(int id)
         {
-            throw new NotImplementedException();
+            Product product = _productRepository.getProductById(id);
+            return product;
         }
 
-        public bool deleteProduct()
+        public Product getProductByTitle(string title)
         {
-            throw new NotImplementedException();
+            Product product = _productRepository.getProductByTitle(title);
+            return product;
         }
 
-      
-        public Product getProductById()
+        public bool addProduct(Product product)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            status = _productRepository.addProduct(product);
+            return status;
         }
 
-        public Product getProductByTitle()
+        public bool deleteProduct(int id)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            status = _productRepository.deleteProduct(id);
+            return status;
         }
-
-        public bool updateProduct()
+        public bool updateProduct(Product product)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            status = _productRepository.updateProduct(product);
+            return status;
         }
     }
 }

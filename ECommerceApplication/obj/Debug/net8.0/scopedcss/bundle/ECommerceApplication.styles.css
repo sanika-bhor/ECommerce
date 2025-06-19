@@ -64,8 +64,10 @@ body[b-gyeonudvss] {
 
 .container[b-gyeonudvss] {
   display: flex;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -106,6 +108,8 @@ body[b-gyeonudvss] {
   background: #f4f6f8;
   padding: 1rem;
   overflow-y: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .main-header[b-gyeonudvss] {

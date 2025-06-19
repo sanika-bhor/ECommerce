@@ -1,17 +1,25 @@
 @{
     ViewData["Title"]="product catelog";
 }
-
+<link rel="stylesheet" href="~/css/CatelogStyle.css" />
 <div class="=main">
     <h1>Products Catelog</h1>
 
     @{
         List<Product> products = (List<Product>)ViewData["allProducts"];
-        <div>
+        <div class="container">
             @foreach(Product product in products)
             {
-                <div>
-                    <p>@product.ProductTitle</p>
+                <div class="cart">
+                    <h2>@product.ProductTitle</h2>
+                    <img src="@product.ProductImage" width="100" height="100" />
+                    @* <p><b>ProductId:</b> @product.ProductId</p> *@
+                    <p><b>Title: </b>@product.ProductTitle</p>
+                    @* <p><b>Description:</b> @product.Description</p> *@
+                    <p><b>Price:</b> @product.UnitPrice</p>
+                    @* <p><b>Available stock:</b> @product.Quantity</p> *@
+                    <a href="/Products/Details/@product.ProductId"> <button>Details</button></a>
+                    
                 </div>
             }
         </div>

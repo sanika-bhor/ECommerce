@@ -38,6 +38,7 @@ namespace ECommerceApplication.Repository
                     string description = reader["Description"].ToString();
                     int quantity = int.Parse(reader["Quantity"].ToString());
                     double unitPrice = double.Parse(reader["UnitPrice"].ToString());
+                    string image = reader["Image"].ToString();
 
                     Product product = new Product
                     {
@@ -45,7 +46,8 @@ namespace ECommerceApplication.Repository
                         ProductTitle = title,
                         Description = description,
                         Quantity = quantity,
-                        UnitPrice = unitPrice
+                        UnitPrice = unitPrice,
+                        ProductImage=image
                     };
 
                     products.Add(product);
