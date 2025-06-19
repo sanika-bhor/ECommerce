@@ -83,15 +83,15 @@ input::placeholder {
 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);  /* Creates 5 equal-width columns */
-    gap: 40px;
+    gap: 25px;
   
 }
 
  .cart
 {
-    padding: 20px;
+    padding: 16px;
     width:100%;
-    margin: 5px;
+    margin: 2px;
     box-shadow:  0 8px 16px rgba(0, 0, 0, 0.1) ;
     border-radius: 20px;
      display: flex;              /* Enable flexbox on .cart */
