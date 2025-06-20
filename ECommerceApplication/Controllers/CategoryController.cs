@@ -27,7 +27,56 @@ public class CategoryController : Controller
         ViewData["flowerProducts"] = products;
         return View();
     }
+      public IActionResult ElectronicDevices()
+    {
+        Categories categories = _categorysrv.getCategoryByName("Electronic Devices");
+        List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
+        ViewData["ElectronicDevicesProducts"] = products;
+        return View();
+    }
+
+         public IActionResult Fashion()
+    {
+        Categories categories = _categorysrv.getCategoryByName("Fashion");
+        List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
+        ViewData["FashionProducts"] = products;
+        return View();
+    }
+
+        public IActionResult Home_Farniture()
+    {
+        Categories categories = _categorysrv.getCategoryByName("Home & Farniture");
+        List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
+        ViewData["Home_FarnitureProducts"] = products;
+        return View();
+    }
+
+
+      public IActionResult Beauty_PersonalCare()
+    {
+        Categories categories = _categorysrv.getCategoryByName("Beauty & Personal Care");
+        List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
+        ViewData["Beauty_PersonalCareProducts"] = products;
+        return View();
+    }
     
+  
+      public IActionResult Toys_Books()
+    {
+        Categories categories = _categorysrv.getCategoryByName("Toys & Books");
+        List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
+        ViewData["Toys_BooksProducts"] = products;
+        return View();
+    }
+
+      public IActionResult Grocery()
+    {
+        Categories categories = _categorysrv.getCategoryByName("Grocery");
+        List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
+        ViewData["GroceryProducts"] = products;
+        return View();
+    }
+     
 
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

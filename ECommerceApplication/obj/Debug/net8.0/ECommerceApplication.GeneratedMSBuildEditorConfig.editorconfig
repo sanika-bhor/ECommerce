@@ -18,12 +18,32 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = A:\TAP\GitHub\ECommerce\ECommerceApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/AllProductData.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQWxsUHJvZHVjdERhdGEuY3NodG1s
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/Beauty_PersonalCare.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQmVhdXR5X1BlcnNvbmFsQ2FyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcaW5kZXguY3NodG1s
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/ElectronicDevices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWxlY3Ryb25pY0RldmljZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/Fashion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRmFzaGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/Flowers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRmxvd2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/Grocery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcR3JvY2VyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/Home_Farniture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSG9tZV9GYXJuaXR1cmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/Toys_Books.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcVG95c19Cb29rcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Catelog/index.cshtml]
