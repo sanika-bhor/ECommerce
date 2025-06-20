@@ -45,7 +45,7 @@ public class CategoryController : Controller
 
         public IActionResult Home_Farniture()
     {
-        Categories categories = _categorysrv.getCategoryByName("Home & Farniture");
+        Categories categories = _categorysrv.getCategoryByName("Home & Furniture");
         List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
         ViewData["Home_FarnitureProducts"] = products;
         return View();
