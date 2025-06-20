@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\CatelogStyle.css"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\NavBarStyle.css",
+      "PackagePath": "staticwebassets\\css\\NavBarStyle.css"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

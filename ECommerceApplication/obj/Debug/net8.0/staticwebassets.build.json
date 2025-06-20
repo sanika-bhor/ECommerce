@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QMdCW9Ly3pbwo9DBzYhtH5EvyLHZTF1Bu3BklHWr6Jg=",
+  "Hash": "kCIW+gVhi+dyqAiXVGlrIddT4MpUiBFtYkVkMhdHTnA=",
   "Source": "ECommerceApplication",
   "BasePath": "_content/ECommerceApplication",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\CatelogStyle.css"
+    },
+    {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\NavBarStyle.css",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "css/NavBarStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\NavBarStyle.css"
     },
     {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\site.css",

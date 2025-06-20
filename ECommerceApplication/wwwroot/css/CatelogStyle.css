@@ -172,27 +172,3 @@ button
     background-color: #4CAF50;
     color: #ffffff;
 }
-
-.main .nav-tabs {
-    margin: 20px 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.main .nav-tabs a {
-    padding: 10px 15px;
-    background-color: #f4f4f4;
-    color: #333;
-    text-decoration: none;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    transition: background-color 0.3s, color 0.3s;
-    font-weight: 500;
-}
-
-.nav-tabs a:hover {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
-}
