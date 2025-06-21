@@ -141,6 +141,10 @@
       "PackagePath": "staticwebassets\\images\\home_logo.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\privacy-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\privacy-hero.jpg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user1.jpeg",
       "PackagePath": "staticwebassets\\images\\user1.jpeg"
     },

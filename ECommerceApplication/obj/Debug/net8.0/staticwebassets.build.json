@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1OM4F5ZAt4FuLY/zzTfK0Xto3WfyNB+fhQA05nNwWGI=",
+  "Hash": "IAk6/ZbOQzJA49gUp/WIgeEsKpkbHithtQMdPKvx9+s=",
   "Source": "ECommerceApplication",
   "BasePath": "_content/ECommerceApplication",
   "Mode": "Default",
@@ -680,6 +680,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\home_logo.jpeg"
+    },
+    {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\privacy-hero.jpg",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "images/privacy-hero.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\privacy-hero.jpg"
     },
     {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\letusc.jpeg",

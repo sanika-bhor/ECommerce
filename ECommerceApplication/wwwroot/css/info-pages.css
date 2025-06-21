@@ -155,3 +155,54 @@ iframe {
         width: 100%;
     }
 }
+.privacy-hero {
+    position: relative;
+    background: url('../images/privacy-hero.jpg') center/cover no-repeat;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.privacy-hero .overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+.privacy-hero h1{
+    color: #fff;
+}
+.privacy-hero p{
+    color: #ebdddd;
+}
+
+.privacy-hero .content {
+    position: relative;
+    z-index: 2;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.accordion-button {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.accordion-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.accordion-body ul li::before {
+    content: "✔";
+    color: #007bff;
+    margin-right: 8px;
+}
+
+.accordion-body ul li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+}
