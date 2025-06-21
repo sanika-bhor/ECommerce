@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\homepage.css"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\info-pages.css",
+      "PackagePath": "staticwebassets\\css\\info-pages.css"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -71,6 +75,10 @@
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\letusc.jpeg",
       "PackagePath": "staticwebassets\\images\\Toys_Books\\letusc.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_us.jpeg",
+      "PackagePath": "staticwebassets\\images\\about_us.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\electronics_logo.jpeg",

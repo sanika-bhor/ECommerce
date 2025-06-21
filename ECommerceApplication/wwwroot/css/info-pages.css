@@ -1,0 +1,90 @@
+/* General Page Styling */
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 2rem 1rem;
+}
+
+h2 {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h5 {
+    font-weight: 600;
+    color: #343a40;
+    margin-top: 1.5rem;
+}
+
+/* Paragraphs & Text */
+p, li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Forms */
+form label {
+    font-weight: 500;
+    color: #333;
+}
+
+form input,
+form textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.75rem;
+    width: 100%;
+    transition: border 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+/* Button Styling */
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Images & Embeds */
+img.rounded-circle {
+    border: 2px solid #ddd;
+}
+
+iframe {
+    border: none;
+    border-radius: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    form input,
+    form textarea {
+        font-size: 0.95rem;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+}

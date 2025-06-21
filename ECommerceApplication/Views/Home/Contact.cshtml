@@ -1,0 +1,37 @@
+@{
+    ViewData["Title"] = "Contact Us";
+}
+<link rel="stylesheet" href="~/css/info-pages.css" />
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Get in Touch</h2>
+    <p class="text-muted text-center mb-4">We’d love to hear from you. Reach out with questions, feedback, or suggestions.</p>
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Your Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your name" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Your Email</label>
+                    <input type="email" class="form-control" placeholder="Enter your email" required />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" rows="4" placeholder="Your message here..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h5 class="fw-bold">Our Office</h5>
+            <p><i class="fas fa-map-marker-alt me-2"></i> Pune, Maharashtra, India</p>
+            <p><i class="fas fa-envelope me-2"></i> support@shopsmart.com</p>
+            <p><i class="fas fa-phone me-2"></i> +91 98765 43210</p>
+            <iframe class="w-100 rounded shadow" height="250" style="border:0"
+                src="https://maps.google.com/maps?q=pune&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                allowfullscreen loading="lazy"></iframe>
+        </div>
+    </div>
+</div>

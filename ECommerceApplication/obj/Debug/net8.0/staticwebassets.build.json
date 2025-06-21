@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sGKB/3NJF3YBaY8yivXbdOFsP5Ak4/E8WdKWlAG9odk=",
+  "Hash": "7i2uSjFjEBfvZ2fGPskspRK963HaHeOJpiB8pscCAns=",
   "Source": "ECommerceApplication",
   "BasePath": "_content/ECommerceApplication",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\css\\homepage.css"
     },
     {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\info-pages.css",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "css/info-pages.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\info-pages.css"
+    },
+    {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\NavBarStyle.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
@@ -148,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_us.jpeg",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "images/about_us.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\about_us.jpeg"
     },
     {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Beautyset.jpeg",
