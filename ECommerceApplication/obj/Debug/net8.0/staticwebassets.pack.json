@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\NavBarStyle.css"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\homepage.css",
+      "PackagePath": "staticwebassets\\css\\homepage.css"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -69,6 +73,14 @@
       "PackagePath": "staticwebassets\\images\\Toys_Books\\letusc.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\electronics_logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\electronics_logo.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\fashion_logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\fashion_logo.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Gerbera.png",
       "PackagePath": "staticwebassets\\images\\flowers\\Gerbera.png"
     },
@@ -99,6 +111,22 @@
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\tulip.png",
       "PackagePath": "staticwebassets\\images\\flowers\\tulip.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\home_logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\home_logo.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user1.jpeg",
+      "PackagePath": "staticwebassets\\images\\user1.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user2.jpeg",
+      "PackagePath": "staticwebassets\\images\\user2.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user3.jpeg",
+      "PackagePath": "staticwebassets\\images\\user3.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\site.js",
