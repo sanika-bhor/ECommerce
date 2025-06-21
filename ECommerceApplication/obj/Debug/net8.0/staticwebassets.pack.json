@@ -89,6 +89,14 @@
       "PackagePath": "staticwebassets\\images\\about_us.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\contact-bg.jpeg",
+      "PackagePath": "staticwebassets\\images\\contact-bg.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\contact-bg.jpg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\electronics_logo.jpeg",
       "PackagePath": "staticwebassets\\images\\electronics_logo.jpeg"
     },
@@ -147,6 +155,10 @@
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\about.js",
       "PackagePath": "staticwebassets\\js\\about.js"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\site.js",

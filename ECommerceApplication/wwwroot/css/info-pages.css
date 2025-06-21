@@ -1,31 +1,50 @@
-/* General Page Styling */
+/* ========== Container & Typography ========== */
 .container {
     max-width: 960px;
     margin: auto;
     padding: 2rem 1rem;
 }
 
-h2 {
+h1, h2, h3, h4 {
     font-weight: bold;
     color: #007bff;
+}
+
+h2 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
 
-h5 {
-    font-weight: 600;
-    color: #343a40;
-    margin-top: 1.5rem;
-}
-
-/* Paragraphs & Text */
 p, li {
     font-size: 1rem;
     line-height: 1.6;
     color: #555;
 }
 
-/* Forms */
+/* ========== Hero Banner ========== */
+.contact-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/contact-bg.jpg') center/cover no-repeat;
+    padding: 90px 20px;
+    color: white;
+    text-align: center;
+    margin-left: -1.5rem; /* adjusts for sidebar layout */
+    margin-right: -1.5rem;
+}
+
+.contact-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    animation: fadeInDown 1s ease-in-out;
+    color: #fff;
+}
+
+.contact-hero p {
+    font-size: 1.2rem;
+    animation: fadeInUp 1s ease-in-out;
+    color: #ffffffc8;
+}
+
+/* ========== Form Styling ========== */
 form label {
     font-weight: 500;
     color: #333;
@@ -47,116 +66,92 @@ form textarea:focus {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
 }
 
-/* Button Styling */
-button[type="submit"] {
-    background-color: #007bff;
+/* Floating labels */
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+    opacity: 1;
+    transform: scale(0.85) translateY(-1.5rem) translateX(0.15rem);
+}
+
+/* ========== Submit Button ========== */
+button[type="submit"],
+.btn-gradient {
+    background: linear-gradient(to right, #007bff, #00bcd4);
     color: #fff;
     border: none;
     padding: 0.7rem 1.5rem;
-    border-radius: 5px;
+    border-radius: 6px;
     font-weight: bold;
     transition: background 0.3s ease, transform 0.2s ease;
 }
 
-button[type="submit"]:hover {
-    background-color: #0056b3;
-    transform: translateY(-2px);
+button[type="submit"]:hover,
+.btn-gradient:hover {
+    background: linear-gradient(to right, #0056b3, #0097a7);
+    transform: translateY(-2px) scale(1.02);
 }
 
-/* Images & Embeds */
-img.rounded-circle {
-    border: 2px solid #ddd;
-}
-
+/* ========== Google Map & Images ========== */
 iframe {
     border: none;
     border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Media Queries for Responsiveness */
+/* ========== Contact Cards & Effects ========== */
+.contact-card, .info-box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover, .info-box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* ========== Animation Classes ========== */
+.animate-fade,
+.animate-slide-up {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.6s ease-in-out;
+}
+
+.animate-fade.reveal,
+.animate-slide-up.reveal {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-40px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ========== Responsive Adjustments ========== */
 @media (max-width: 768px) {
     .container {
         padding: 1rem;
     }
 
-    form input,
-    form textarea {
-        font-size: 0.95rem;
+    .contact-hero h1 {
+        font-size: 2rem;
+    }
+
+    .contact-hero p {
+        font-size: 1rem;
     }
 
     button[type="submit"] {
         width: 100%;
     }
-}
-
-
-
-
-.about-hero {
-    background: linear-gradient(to right, #007bff, #00c6ff);
-    color: white;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    background-size: 400% 400%;
-    animation: heroBG 12s ease infinite;
-    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
-}
-
-@keyframes heroBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-
-.about-img {
-    max-width: 100%;
-    border-radius: 10px;
-    transition: transform 0.6s ease;
-}
-
-.about-img:hover {
-    transform: scale(1.05) rotate(1deg);
-}
-
-.info-card {
-    background-color: #ffffff;
-    border-radius: 10px;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    perspective: 1000px;
-}
-
-.tilt-card:hover {
-    transform: rotateY(3deg) rotateX(2deg) scale(1.03);
-    box-shadow: 0 15px 30px rgba(0, 123, 255, 0.25);
-}
-
-.animated-section {
-    opacity: 0;
-    transform: translateY(40px);
-    animation: fadeInUp 1s ease forwards;
-    animation-delay: 0.2s;
-}
-
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-/* Bullet styling */
-ul {
-    padding-left: 1.2rem;
-}
-
-ul li {
-    margin-bottom: 0.5rem;
-    position: relative;
-}
-
-ul li::before {
-    content: "✔";
-    color: #007bff;
-    font-weight: bold;
-    margin-right: 8px;
 }
