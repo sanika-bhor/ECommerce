@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\NavBarStyle.css"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\homepage.css",
       "PackagePath": "staticwebassets\\css\\homepage.css"
     },
@@ -77,6 +81,10 @@
       "PackagePath": "staticwebassets\\images\\Toys_Books\\letusc.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_bg.jpeg",
+      "PackagePath": "staticwebassets\\images\\about_bg.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_us.jpeg",
       "PackagePath": "staticwebassets\\images\\about_us.jpeg"
     },
@@ -135,6 +143,10 @@
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user3.jpeg",
       "PackagePath": "staticwebassets\\images\\user3.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\about.js",
+      "PackagePath": "staticwebassets\\js\\about.js"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\site.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7i2uSjFjEBfvZ2fGPskspRK963HaHeOJpiB8pscCAns=",
+  "Hash": "Ikvt47TrqA5DEr8s8WIFhjfTVGsxS/Xtj517D8rcjAQ=",
   "Source": "ECommerceApplication",
   "BasePath": "_content/ECommerceApplication",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerceApplication.bundle.scp.css"
+    },
+    {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\about.css",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "css/about.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\about.css"
     },
     {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\CatelogStyle.css",
@@ -167,6 +186,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_bg.jpeg",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "images/about_bg.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\about_bg.jpeg"
     },
     {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_us.jpeg",
@@ -680,6 +718,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\user3.jpeg"
+    },
+    {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\about.js",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "js/about.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\about.js"
     },
     {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\site.js",

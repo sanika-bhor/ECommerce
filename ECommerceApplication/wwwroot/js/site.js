@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
 document.addEventListener("DOMContentLoaded", function () {
   const animatedCards = document.querySelectorAll(".card, .review-card");
 
@@ -47,4 +46,30 @@ document.addEventListener("DOMContentLoaded", function () {
   );
 
   animatedCards.forEach((card) => observer.observe(card));
+});
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const sections = document.querySelectorAll(".reveal-section");
+
+  const reveal = () => {
+    sections.forEach((section) => {
+      const position = section.getBoundingClientRect().top;
+      if (position < window.innerHeight - 100) {
+        section.classList.add("reveal");
+      }
+    });
+  };
+
+  reveal();
+  window.addEventListener("scroll", reveal);
+
+  // OPTIONAL: Dynamically set timeline height
+  const timeline = document.querySelector(".timeline");
+  const items = document.querySelectorAll(".timeline-item");
+  const itemSpacing = 150;
+  if (timeline) {
+    timeline.style.minHeight = `${items.length * itemSpacing}px`;
+  }
 });
