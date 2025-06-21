@@ -27,7 +27,8 @@ public class CategoryController : Controller
         ViewData["flowerProducts"] = products;
         return View();
     }
-      public IActionResult ElectronicDevices()
+    
+    public IActionResult ElectronicDevices()
     {
         Categories categories = _categorysrv.getCategoryByName("Electronic Devices");
         List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
@@ -35,7 +36,7 @@ public class CategoryController : Controller
         return View();
     }
 
-         public IActionResult Fashion()
+    public IActionResult Fashion()
     {
         Categories categories = _categorysrv.getCategoryByName("Fashion");
         List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
@@ -43,7 +44,7 @@ public class CategoryController : Controller
         return View();
     }
 
-        public IActionResult Home_Farniture()
+    public IActionResult Home_Farniture()
     {
         Categories categories = _categorysrv.getCategoryByName("Home & Furniture");
         List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
@@ -52,7 +53,7 @@ public class CategoryController : Controller
     }
 
 
-      public IActionResult Beauty_PersonalCare()
+    public IActionResult Beauty_PersonalCare()
     {
         Categories categories = _categorysrv.getCategoryByName("Beauty & Personal Care");
         List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
@@ -61,7 +62,7 @@ public class CategoryController : Controller
     }
     
   
-      public IActionResult Toys_Books()
+    public IActionResult Toys_Books()
     {
         Categories categories = _categorysrv.getCategoryByName("Toys & Books");
         List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);
@@ -69,7 +70,7 @@ public class CategoryController : Controller
         return View();
     }
 
-      public IActionResult Grocery()
+    public IActionResult Grocery()
     {
         Categories categories = _categorysrv.getCategoryByName("Grocery");
         List<Product> products = _productsrv.getProductByCategoryId(categories.CategoryId);

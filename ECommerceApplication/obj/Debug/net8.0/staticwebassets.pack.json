@@ -37,8 +37,24 @@
       "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Beautyset.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\cosmetic.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\cosmetic.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\download.jpeg",
       "PackagePath": "staticwebassets\\images\\ElectronicDevices\\download.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\fan.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\fan.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\laptop.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\laptop.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\mobile.png",
@@ -61,8 +77,20 @@
       "PackagePath": "staticwebassets\\images\\Fashion\\watch.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\cheese.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\cheese.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\flour.jpeg",
       "PackagePath": "staticwebassets\\images\\Grocery\\flour.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\oil.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\oil.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\tomato_souse.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\tomato_souse.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\BedSheet.jpeg",
@@ -77,8 +105,16 @@
       "PackagePath": "staticwebassets\\images\\Home_Farniture\\lamp.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\cleancode.jpeg",
+      "PackagePath": "staticwebassets\\images\\Toys_Books\\cleancode.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\letusc.jpeg",
       "PackagePath": "staticwebassets\\images\\Toys_Books\\letusc.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\teddy.jpeg",
+      "PackagePath": "staticwebassets\\images\\Toys_Books\\teddy.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_bg.jpeg",

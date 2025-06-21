@@ -26,12 +26,12 @@ public class CatelogController : Controller
         return View();
     }
 
-    // public IActionResult DetailsWithId(int id)
-    // {
-    //     Product product = _srv.getProductById(id);
-    //     ViewData["productById"] = product;
-    //     return View();
-    // }
+    public IActionResult DetailsWithId(int id)
+    {
+        Product product = _srv.getProductById(id);
+        ViewData["productById"] = product;
+        return View();
+    }
 
     // public IActionResult DetailsWithTitle(string title)
     // {
