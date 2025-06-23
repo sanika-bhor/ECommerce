@@ -8,8 +8,8 @@ namespace ECommerceApplication.Repository.Interfaces
         Item getItemById(int id);
         List<Product> getItemByCategoryId(int id);
         Product getItemByTitle(string title);
-        bool addItem(Product product);
-        bool updateItem(Product product);
+        bool addItem(Item item);
+        bool updateItem(Item item);
         bool deleteItem(int id);
     }
 }

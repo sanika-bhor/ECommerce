@@ -2,18 +2,21 @@ namespace ECommerceApplication.Models
 {
     public class Item
     {
-        public int Id { get; set; }
+        public int ItemId { get; set; }
         public Product product { get; set; }
+        public int Quantity{ get; set; }
         public Item()
         {
-            Id = 0;
+            ItemId = 0;
             product = null;
+            Quantity = 0;
         }
 
-        public Item(int id, Product p)
+        public Item(int id, Product p, int quantity)
         {
-            Id = id;
+            ItemId = id;
             product = p;
+            Quantity = quantity;
         }
     }
 }
