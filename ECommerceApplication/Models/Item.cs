@@ -12,6 +12,11 @@ namespace ECommerceApplication.Models
             Quantity = 0;
         }
 
+        public Item( Product p, int quantity)
+        {
+            product = p;
+            Quantity = quantity;
+        }
         public Item(int id, Product p, int quantity)
         {
             ItemId = id;
