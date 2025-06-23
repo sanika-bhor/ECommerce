@@ -6,11 +6,15 @@ namespace ECommerceApplication.Services
 {
     public class ShoppingCartService : IShoppingCartService
     {
-        private readonly IShoppingCartRepository _cartService;
+        private readonly IShoppingCartRepository _cartrepo;
+        public ShoppingCartService(IShoppingCartRepository repo)
+        {
+            _cartrepo = repo;
+        }
         public bool addItem(Item item)
         {
             bool Status = false;
-            Status = _cartService.addItem(item);
+            Status = _cartrepo.addItem(item);
             return Status;
         }
 
@@ -21,7 +25,8 @@ namespace ECommerceApplication.Services
 
         public List<Item> getAllItem()
         {
-            List<Item> items = _cartService.getAllItem();
+            List<Item> items = new List<Item>();
+            items = (List<Item>)_cartrepo.getAllItem();
             return items;
         }
 

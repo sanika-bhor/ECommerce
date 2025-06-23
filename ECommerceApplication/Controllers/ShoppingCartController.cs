@@ -20,7 +20,7 @@ public class ShoppingCartController : Controller
         _productsrv = productsrv;
     }
 
-    public IActionResult Cart()
+    public IActionResult Index()
     {
         List<Item> items = _cartsrv.getAllItem();
         ViewData["allItems"] = items;

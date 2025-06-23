@@ -13,7 +13,7 @@ namespace ECommerceApplication.Repository.Interfaces
 
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = conn.CreateCommand();
-            string query= "insert into cart(ItemName, ItemImage,Qunatity,UnitPrice,product_id) values(@itemName,@itemImage,@quantity,@unitPrice,@productId)";
+            string query= "insert into cart(ItemName, ItemImage,Quantity,UnitPrice,product_id) values(@itemName,@itemImage,@quantity,@unitPrice,@productId)";
             cmd.Parameters.Add(new MySqlParameter("@itemName", item.product.ProductTitle));
             cmd.Parameters.Add(new MySqlParameter("@itemImage", item.product.ProductImage));
             cmd.Parameters.Add(new MySqlParameter("@quantity", item.Quantity));
@@ -67,15 +67,16 @@ namespace ECommerceApplication.Repository.Interfaces
                     string image = reader["ItemImage"].ToString();
                     int quantity = int.Parse(reader["Quantity"].ToString());
                     int unitPrice = int.Parse(reader["UnitPrice"].ToString());
-
+                    int productId = int.Parse(reader["product_id"].ToString());
                     Product product = new Product
                     {
+                        ProductId = productId,
                         ProductTitle = name,
                         ProductImage = image,
                         UnitPrice = unitPrice
                     };
                     items.Add(new Item(id, product,quantity));
-                    conn.Close();
+                  
                 }
 
              
