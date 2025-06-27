@@ -10,12 +10,13 @@
                 @foreach(Item item in items)
                 {
                     var product=item.product;
+                    var quantity=item.Quantity;
                     <div class="cart cartItem">
                         <h2>@product.ProductTitle</h2>
                         <img src="@product.ProductImage" width="150" height="150"/>
                         <p><b>Product id:</b>@product.ProductId</p>
                         <p><b>Product Title:</b>@product.ProductTitle</p>
-                        <p><b>Quantity:</b>@product.Quantity</p>
+                        <p><b>Quantity:</b>@quantity</p>
                         <p><b>Unit Price:</b>@product.UnitPrice</p>
                     </div>
                 }
