@@ -20,7 +20,8 @@ namespace ECommerceApplication.Services
 
         public bool deleteItem(int id)
         {
-            throw new NotImplementedException();
+            bool status = _cartrepo.deleteItem(id);
+            return status;
         }
 
         public List<Item> getAllItem()
@@ -47,7 +48,8 @@ namespace ECommerceApplication.Services
 
         public bool updateItem(Item item)
         {
-            throw new NotImplementedException();
+            bool status = _cartrepo.updateItem(item);
+            return status;
         }
     }
 }

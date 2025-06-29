@@ -55,7 +55,43 @@ public class ShoppingCartController : Controller
         }
     }
 
-  
+    public IActionResult Update(int id)
+    {
+        Product product = _productsrv.getProductById(id);
+        return View(product);
+    }
+
+    [HttpPost]
+    public IActionResult Update(int id, string title, string img, int unitprice, int quantity)
+    {
+        Product product = new Product
+        {
+            ProductId = id,
+            ProductTitle = title,
+            ProductImage = img,
+            UnitPrice = unitprice
+        };
+        Item item = new Item(product, quantity);
+        bool status = _cartsrv.updateItem(item);
+        if (status)
+        {
+            return RedirectToAction("index", "Catelog");
+        }
+        else
+        {
+            return RedirectToAction("Insert", "ShoppingCart");
+        }
+    }
+
+    public IActionResult Delete(int id)
+    {
+        bool status = _cartsrv.deleteItem(id);
+        if (status)
+        {
+            return RedirectToAction("Index", "ShoppingCart");
+        }
+        return RedirectToAction("Index");
+    }
 
 
 

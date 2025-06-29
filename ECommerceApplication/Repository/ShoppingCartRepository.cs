@@ -1,4 +1,5 @@
 using System.Data;
+using System.Data.Common;
 using ECommerceApplication.Models;
 using ECommerceApplication.Utils;
 using MySql.Data.MySqlClient;
@@ -42,7 +43,32 @@ namespace ECommerceApplication.Repository.Interfaces
 
         public bool deleteItem(int id)
         {
-            throw new NotImplementedException();
+            bool Status = false;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            try
+            {
+                conn.Open();
+                cmd.CommandText = "delete from cart where itemid=@id";
+                cmd.Parameters.Add(new MySqlParameter("@id", id));
+                cmd.Connection = conn;
+                cmd.ExecuteNonQuery();
+               
+                Status = true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+
+            return Status;
         }
 
         public List<Item> getAllItem()
@@ -112,7 +138,32 @@ namespace ECommerceApplication.Repository.Interfaces
 
         public bool updateItem(Item item)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            try
+            {
+                conn.Open();
+                cmd.Connection = conn;
+                cmd.CommandText = "UPDATE cart SET Quantity=@quantity where itemid=@id";
+                cmd.Parameters.Add(new MySqlParameter("@quantity", item.Quantity));
+                cmd.Parameters.Add(new MySqlParameter("@id", item.ItemId));
+                cmd.ExecuteNonQuery();
+                status = true;
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return status;
         }
     }
 }
