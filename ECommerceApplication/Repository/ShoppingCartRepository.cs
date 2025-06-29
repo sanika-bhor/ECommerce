@@ -128,7 +128,46 @@ namespace ECommerceApplication.Repository.Interfaces
 
         public Item getItemById(int id)
         {
-            throw new NotImplementedException();
+            Item item = null;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            try
+            {
+                conn.Open();
+                cmd.Connection = conn;
+                cmd.CommandText = "select * from cart where itemid=@id";
+                cmd.Parameters.Add(new MySqlParameter("@id", id));
+                IDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    int id1 = int.Parse(reader["itemid"].ToString());
+                    string title = reader["itemname"].ToString();
+                    string img = reader["itemimage"].ToString();
+                    int quantity = int.Parse(reader["Quantity"].ToString());
+                    int price = int.Parse(reader["UnitPrice"].ToString());
+                    int productId = int.Parse(reader["product_id"].ToString());
+                    Product product = new Product
+                    {
+                        ProductId = productId,
+                        ProductTitle = title,
+                        ProductImage = img,
+                        UnitPrice = price
+                    };
+                    item = new Item(id1, product, quantity);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return item;
         }
 
         public Product getItemByTitle(string title)
@@ -141,13 +180,14 @@ namespace ECommerceApplication.Repository.Interfaces
             bool status = false;
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = new MySqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "UPDATE cart SET Quantity=@quantity where product_id=@id";
+            cmd.Parameters.Add(new MySqlParameter("@quantity", item.Quantity));
+            cmd.Parameters.Add(new MySqlParameter("@id", item.product.ProductId));
             try
             {
                 conn.Open();
-                cmd.Connection = conn;
-                cmd.CommandText = "UPDATE cart SET Quantity=@quantity where itemid=@id";
-                cmd.Parameters.Add(new MySqlParameter("@quantity", item.Quantity));
-                cmd.Parameters.Add(new MySqlParameter("@id", item.ItemId));
+
                 cmd.ExecuteNonQuery();
                 status = true;
 

@@ -57,8 +57,8 @@ public class ShoppingCartController : Controller
 
     public IActionResult Update(int id)
     {
-        Product product = _productsrv.getProductById(id);
-        return View(product);
+        Item item = _cartsrv.getItemById(id);
+        return View(item);
     }
 
     [HttpPost]
@@ -79,7 +79,7 @@ public class ShoppingCartController : Controller
         }
         else
         {
-            return RedirectToAction("Insert", "ShoppingCart");
+            return RedirectToAction("update", "ShoppingCart");
         }
     }
 

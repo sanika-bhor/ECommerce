@@ -38,7 +38,8 @@ namespace ECommerceApplication.Services
 
         public Item getItemById(int id)
         {
-            throw new NotImplementedException();
+            Item item = _cartrepo.getItemById(id);
+            return item;
         }
 
         public Product getItemByTitle(string title)
