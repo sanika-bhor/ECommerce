@@ -56,9 +56,44 @@ namespace ECommerceApplication.Repository
             return customers;
         }
 
-        public Customer getCustomerByEmail(int id)
+        public Customer getCustomerByEmail(string email)
         {
-            throw new NotImplementedException();
+            Customer customer=new Customer();
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            try
+            {
+                conn.Open();
+                cmd.Connection = conn;
+                cmd.CommandText = "select * from Users where Email=@email";
+                cmd.Parameters.Add(new MySqlParameter("@email", email));
+                IDataReader reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                   
+                    customer.CustomerId = int.Parse(reader["CustomerId"].ToString());
+                    customer.Name = reader["name"].ToString();
+                    customer.PhoneNo = reader["PhoneNo"].ToString();
+                    customer.Email = reader["email"].ToString();
+                    customer.Password = reader["password"].ToString();
+                    customer.City = reader["City"].ToString();
+                    customer.DOB = Convert.ToDateTime(reader["DOB"]);
+                    reader.Close();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return customer;
         }
 
         public Customer getCustomerById(int id)

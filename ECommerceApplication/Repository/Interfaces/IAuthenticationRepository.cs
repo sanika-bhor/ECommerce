@@ -6,7 +6,7 @@ namespace ECommerceApplication.Repository.Interfaces
     {
         List<Customer> getAllCustomers();
         Customer getCustomerById(int id);
-        Customer getCustomerByEmail(int id);
+        Customer getCustomerByEmail(string email);
         Customer getCustomerByName(string title);
         bool addCustomer(Customer customer);
         bool updateCustomer(Customer customer);

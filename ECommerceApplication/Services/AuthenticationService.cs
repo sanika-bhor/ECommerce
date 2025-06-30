@@ -28,9 +28,10 @@ namespace ECommerceApplication.Services
             return customers;
         }
 
-        public Customer getCustomerByEmail(int id)
+        public Customer getCustomerByEmail(string email)
         {
-            throw new NotImplementedException();
+            Customer customer = _AuthRepo.getCustomerByEmail(email);
+            return customer;
         }
 
         public Customer getCustomerById(int id)

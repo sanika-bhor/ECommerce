@@ -26,33 +26,30 @@ public class AuthenticationController : Controller
         return View();
     }
 
-    // public IActionResult Insert(int id)
-    // {
-    //     Product product = _productsrv.getProductById(id);
-    //     return View(product);
-    // }
+    public IActionResult Login()
+    {
+        return View();
+    }
 
-    // [HttpPost]
-    // public IActionResult Insert(int id, string title, string img, int unitprice, int quantity)
-    // {
-    //     Product product = new Product
-    //     {
-    //         ProductId = id,
-    //         ProductTitle = title,
-    //         ProductImage = img,
-    //         UnitPrice = unitprice
-    //     };
-    //     Item item = new Item(product, quantity);
-    //     bool status = _cartsrv.addItem(item);
-    //     if (status)
-    //     {
-    //         return RedirectToAction("index", "Catelog");
-    //     }
-    //     else
-    //     {
-    //         return RedirectToAction("Insert", "ShoppingCart");
-    //     }
-    // }
+    [HttpPost]
+    public IActionResult Login(string email, string password)
+    {
+        Customer customer = _AuthSrv.getCustomerByEmail(email);
+
+        if (customer != null && password == "sanika123" && email == "sanika0239@gmail.com")
+        {
+            return RedirectToAction("index", "Authentication");
+        }
+        else if (customer != null && password == customer.Password)
+        {
+            return RedirectToAction("index", "Home");
+        }
+        else
+        {
+            return View("Error");
+        }
+
+    }
 
     // public IActionResult Update(int id)
     // {
