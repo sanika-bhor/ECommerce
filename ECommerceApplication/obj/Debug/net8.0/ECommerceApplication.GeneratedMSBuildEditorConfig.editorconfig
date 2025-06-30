@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = A:\TAP\GitHub\ECommerce\ECommerceApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Authentication/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25caW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/Beauty_PersonalCare.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQmVhdXR5X1BlcnNvbmFsQ2FyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

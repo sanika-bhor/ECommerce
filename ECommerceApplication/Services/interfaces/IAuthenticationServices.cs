@@ -2,7 +2,7 @@ using ECommerceApplication.Repository.Interfaces;
 
 namespace ECommerceApplication.Services.Interfaces
 {
-    public interface IAuthentcationService : IAuthenticationRepository
+    public interface IAuthenticationService : IAuthenticationRepository
     {
 
     }

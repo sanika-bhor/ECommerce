@@ -27,7 +27,7 @@ namespace ECommerceApplication.Repository
             {
                 conn.Open();
                 cmd.Connection = conn;
-                cmd.CommandText = "SELECT * FROM customers";
+                cmd.CommandText = "SELECT * FROM Users";
                 IDataReader reader = cmd.ExecuteReader();
                 while (reader.Read())
                 {

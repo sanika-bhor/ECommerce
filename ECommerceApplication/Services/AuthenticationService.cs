@@ -4,7 +4,7 @@ using ECommerceApplication.Services.Interfaces;
 
 namespace ECommerceApplication.Services
 {
-    public class AuthenticationService : IAuthentcationService
+    public class AuthenticationService : IAuthenticationService
     {
         private readonly IAuthenticationRepository _AuthRepo;
 
