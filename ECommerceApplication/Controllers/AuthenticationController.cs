@@ -37,7 +37,7 @@ public class AuthenticationController : Controller
             }
             else
             {
-                return RedirectToAction("error", "Shared");
+                return Error();
             }
         }
       
