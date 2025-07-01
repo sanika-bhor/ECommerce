@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "product catelog";
+}
+<link rel="stylesheet" href="~/css/CatelogStyle.css" />
+<link rel="stylesheet" href="~/css/NavBarStyle.css" />
+<div class="main">
+
+
+    @{
+        Customer customer = (Customer)ViewData["CustomerProfile"];
+        <div class="container">
+            
+                <div class="cart">
+                    <h2>@customer.Name</h2>
+                    <p><b>Id:</b> @customer.CustomerId</p>
+                    <p><b>City: </b>@customer.City</p>
+                    <p><b>Email:</b> @customer.Email</p>
+                    <p><b>Password:</b> @customer.Password</p>
+                    <p><b>Phone No:</b> @customer.PhoneNo</p>
+                    <p><b>Date of Birth:</b> @customer.DOB</p>
+                    <a href="/Authentication/Update/@customer.CustomerId"> <button>Update</button></a>
+
+                </div>
+            
+        </div>
+    }
+</div>
+
