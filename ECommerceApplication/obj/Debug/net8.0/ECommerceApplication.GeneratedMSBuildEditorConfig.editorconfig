@@ -18,10 +18,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = A:\TAP\GitHub\ECommerce\ECommerceApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Authentication/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25caW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Authentication/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -60,6 +56,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Catelog/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWxvZ1xpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Customer/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Customer/UpdateProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcVXBkYXRlUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Home/About.cshtml]

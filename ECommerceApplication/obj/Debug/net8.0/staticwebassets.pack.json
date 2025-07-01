@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\css\\info-pages.css"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\profileStyle.css",
+      "PackagePath": "staticwebassets\\css\\profileStyle.css"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -179,6 +183,10 @@
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\privacy-hero.jpg",
       "PackagePath": "staticwebassets\\images\\privacy-hero.jpg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user1.jpeg",

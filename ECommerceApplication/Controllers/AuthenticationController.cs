@@ -19,30 +19,7 @@ public class AuthenticationController : Controller
         _AuthSrv = authsrv;
     }
 
-    public IActionResult Index()
-    {
-
-        if (string.IsNullOrEmpty(HttpContext.Session.GetString("Email")))
-        {
-            return RedirectToAction("Login", "Authentication");
-        }
-        else
-        {
-            string email = HttpContext.Session.GetString("Email");
-            if (email == "sanika0239@gmail.com")
-            {
-                List<Customer> customers = _AuthSrv.getAllCustomers();
-                ViewData["allCustomers"] = customers;
-                return View();
-            }
-            else
-            {
-                return Error();
-            }
-        }
-      
-    }
-
+    
     public IActionResult Login()
     {
         return View();
@@ -56,20 +33,17 @@ public class AuthenticationController : Controller
         if (customer != null && password == "sanika123" && email == "sanika0239@gmail.com")
         {
             HttpContext.Session.SetString("Email", email);
-            return RedirectToAction("index", "Authentication");
+            return RedirectToAction("index", "Customer");
         }
         else if (customer != null && password == customer.Password)
         {
             HttpContext.Session.SetString("Email", email);
-            return RedirectToAction("index", "Profile");
+            return RedirectToAction("index", "Home");
         }
         else
         {
             return View();
         }
-       
-
-
     }
 
     public IActionResult Logout()
@@ -77,48 +51,6 @@ public class AuthenticationController : Controller
         HttpContext.Session.Clear();
         return RedirectToAction("Login", "Authentication");
     }
-
-
-        // public IActionResult Update(int id)
-        // {
-        //     Item item = _cartsrv.getItemById(id);
-        //     return View(item);
-        // }
-
-
-        // [HttpPost]
-        // public IActionResult Update(int id, string title, string img, int unitprice, int quantity)
-        // {
-        //     Product product = new Product
-        //     {
-        //         ProductId = id,
-        //         ProductTitle = title,
-        //         ProductImage = img,
-        //         UnitPrice = unitprice
-        //     };
-        //     Item item = new Item(product, quantity);
-        //     bool status = _cartsrv.updateItem(item);
-        //     if (status)
-        //     {
-        //         return RedirectToAction("index", "Catelog");
-        //     }
-        //     else
-        //     {
-        //         return RedirectToAction("update", "ShoppingCart");
-        //     }
-        // }
-
-
-        // public IActionResult Delete(int id)
-        // {
-        //     bool status = _cartsrv.deleteItem(id);
-        //     if (status)
-        //     {
-        //         return RedirectToAction("Index", "ShoppingCart");
-        //     }
-        //     return RedirectToAction("Index");
-        // }
-
 
 
 

@@ -36,7 +36,7 @@ namespace ECommerceApplication.Services
 
         public Customer getCustomerById(int id)
         {
-            throw new NotImplementedException();
+            return _AuthRepo.getCustomerById(id);
         }
 
         public Customer getCustomerByName(string title)
@@ -46,7 +46,8 @@ namespace ECommerceApplication.Services
 
         public bool updateCustomer(Customer customer)
         {
-            throw new NotImplementedException();
+            bool status = _AuthRepo.updateCustomer(customer);
+            return status;
         }
     }
 }

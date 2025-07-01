@@ -1,28 +1,32 @@
 @{
-    ViewData["Title"] = "product catelog";
+    ViewData["Title"] = "Customer Profile";
+    Customer customer = (Customer)ViewData["CustomerProfile"];
 }
+
 <link rel="stylesheet" href="~/css/CatelogStyle.css" />
 <link rel="stylesheet" href="~/css/NavBarStyle.css" />
+<link rel="stylesheet" href="~/css/ProfileStyle.css" />
+
 <div class="main">
-
-
-    @{
-        Customer customer = (Customer)ViewData["CustomerProfile"];
-        <div class="container">
-            
-                <div class="cart">
-                    <h2>@customer.Name</h2>
-                    <p><b>Id:</b> @customer.CustomerId</p>
-                    <p><b>City: </b>@customer.City</p>
-                    <p><b>Email:</b> @customer.Email</p>
-                    <p><b>Password:</b> @customer.Password</p>
-                    <p><b>Phone No:</b> @customer.PhoneNo</p>
-                    <p><b>Date of Birth:</b> @customer.DOB</p>
-                    <a href="/Authentication/Update/@customer.CustomerId"> <button>Update</button></a>
-
-                </div>
-            
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <img src="~/images/user.jpg" alt="Profile Picture" class="profile-pic" />
+                <h2>@customer.Name</h2>
+                <span class="customer-id">ID: @customer.CustomerId</span>
+            </div>
+            <div class="profile-info">
+                <p><strong>City:</strong> @customer.City</p>
+                <p><strong>Email:</strong> @customer.Email</p>
+                <p><strong>Password:</strong> @customer.Password</p>
+                <p><strong>Phone No:</strong> @customer.PhoneNo</p>
+                <p><strong>Date of Birth:</strong> @customer.DOB.ToString("dd MMM yyyy")</p>
+            </div>
+            <div class="profile-actions">
+                <a href="/Customer/UpdateProfile/@customer.CustomerId">
+                    <button class="update-btn">Update Profile</button>
+                </a>
+            </div>
         </div>
-    }
+    </div>
 </div>
-

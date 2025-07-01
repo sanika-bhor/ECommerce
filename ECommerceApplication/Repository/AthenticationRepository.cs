@@ -98,8 +98,42 @@ namespace ECommerceApplication.Repository
 
         public Customer getCustomerById(int id)
         {
-            throw new NotImplementedException();
-        }
+
+            Customer customer = new Customer();
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            IDataReader reader;
+            try
+            {
+                conn.Open();
+                cmd.Connection = conn;
+                cmd.CommandText = "select * from Users where CustomerId=@id";
+                cmd.Parameters.Add(new MySqlParameter("@id", id));
+                reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    customer.CustomerId = int.Parse(reader["CustomerId"].ToString());
+                    customer.Name = reader["name"].ToString();
+                    customer.PhoneNo = reader["PhoneNo"].ToString();
+                    customer.City = reader["City"].ToString();
+                    customer.DOB = Convert.ToDateTime(reader["DOB"]);
+                    customer.Email = reader["Email"].ToString();
+                    customer.Password = reader["Password"].ToString();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+                return customer;
+            }
 
         public Customer getCustomerByName(string title)
         {
@@ -108,7 +142,36 @@ namespace ECommerceApplication.Repository
 
         public bool updateCustomer(Customer customer)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            try
+            {
+                conn.Open();
+                cmd.Connection = conn;
+                cmd.CommandText = "update Users set Name=@name,PhoneNo=@phno, Email=@email, Password=@password, City=@city, DOB=@dob where Customerid=@id";
+                cmd.Parameters.Add(new MySqlParameter("@id", customer.CustomerId));
+                cmd.Parameters.Add(new MySqlParameter("@name", customer.Name));
+                cmd.Parameters.Add(new MySqlParameter("@phno", customer.PhoneNo));
+                cmd.Parameters.Add(new MySqlParameter("@email", customer.Email));
+                cmd.Parameters.Add(new MySqlParameter("@password", customer.Password));
+                cmd.Parameters.Add(new MySqlParameter("@city", customer.City));
+                cmd.Parameters.Add(new MySqlParameter("@dob", customer.DOB));
+                cmd.ExecuteNonQuery();
+                status = true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return status;
         }
     }
 }

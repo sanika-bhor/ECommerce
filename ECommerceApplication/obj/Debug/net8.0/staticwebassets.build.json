@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Av9SJksNyc0RCyJnV58lH1yt6OUtOwTRQw0LoCCdIIk=",
+  "Hash": "uUwxlsWKlE2ZdDhSsxzEzRzQEuiusT3LwISAaxgwovQ=",
   "Source": "ECommerceApplication",
   "BasePath": "_content/ECommerceApplication",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\NavBarStyle.css"
+    },
+    {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\profileStyle.css",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "css/profileStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\profileStyle.css"
     },
     {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\site.css",
@@ -889,6 +908,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Toys_Books\\teddy.jpeg"
+    },
+    {
+      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user.jpg",
+      "SourceId": "ECommerceApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "BasePath": "_content/ECommerceApplication",
+      "RelativePath": "images/user.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user.jpg"
     },
     {
       "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user1.jpeg",
