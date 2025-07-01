@@ -21,9 +21,26 @@ public class AuthenticationController : Controller
 
     public IActionResult Index()
     {
-        List<Customer> customers = _AuthSrv.getAllCustomers();
-        ViewData["allCustomers"] = customers;
-        return View();
+
+        if (string.IsNullOrEmpty(HttpContext.Session.GetString("Email")))
+        {
+            return RedirectToAction("Login", "Authentication");
+        }
+        else
+        {
+            string email = HttpContext.Session.GetString("Email");
+            if (email == "sanika0239@gmail.com")
+            {
+                List<Customer> customers = _AuthSrv.getAllCustomers();
+                ViewData["allCustomers"] = customers;
+                return View();
+            }
+            else
+            {
+                return RedirectToAction("error", "Shared");
+            }
+        }
+      
     }
 
     public IActionResult Login()

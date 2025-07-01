@@ -21,9 +21,16 @@ public class CatelogController : Controller
 
     public IActionResult Index()
     {
-        List<Product> products = _srv.getAllProduct();
-        ViewData["allProducts"] = products;
-        return View();
+        if (string.IsNullOrEmpty(HttpContext.Session.GetString("Email")))
+        {
+            return RedirectToAction("Login", "Authentication");
+        }
+        else
+        {
+            List<Product> products = _srv.getAllProduct();
+            ViewData["allProducts"] = products;
+            return View();
+        }
     }
 
     public IActionResult DetailsWithId(int id)

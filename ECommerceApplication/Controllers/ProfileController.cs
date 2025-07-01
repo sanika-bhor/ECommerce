@@ -21,10 +21,17 @@ public class ProfileController : Controller
 
     public IActionResult Index()
     {
-        string email = HttpContext.Session.GetString("Email");
-        Customer customers = _AuthSrv.getCustomerByEmail(email);
-        ViewData["CustomerProfile"] = customers;
-        return View();
+        if (string.IsNullOrEmpty(HttpContext.Session.GetString("Email")))
+        {
+            return RedirectToAction("Login", "Authentication");
+        }
+        else
+        {
+            string email = HttpContext.Session.GetString("Email");
+            Customer customers = _AuthSrv.getCustomerByEmail(email);
+            ViewData["CustomerProfile"] = customers;
+            return View();
+        }
     }
 
     // public IActionResult Login()

@@ -22,9 +22,16 @@ public class ShoppingCartController : Controller
 
     public IActionResult Index()
     {
-        List<Item> items = _cartsrv.getAllItem();
-        ViewData["allItems"] = items;
-        return View();
+        if (string.IsNullOrEmpty(HttpContext.Session.GetString("Email")))
+        {
+            return RedirectToAction("Login", "Authentication");
+        }
+        else
+        {
+            List<Item> items = _cartsrv.getAllItem();
+            ViewData["allItems"] = items;
+            return View();
+        }
     }
 
     public IActionResult Insert(int id)
