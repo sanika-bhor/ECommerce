@@ -1,5 +1,5 @@
 @{
-    ViewData["Title"] = "Login";
+    ViewData["Title"] = "Register";
 }
 
 <style>
@@ -14,18 +14,18 @@
         height: 100vh;
     }
 
-    .login-container {
+    .register-container {
         margin-left: 500px;
-        margin-top: 200px;
+        margin-top: 80px;
         background-color: #fff;
         border-radius: 16px;
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         padding: 40px 30px;
         width: 100%;
-        max-width: 400px;
+        max-width: 500px;
     }
 
-    .login-container h2 {
+    .register-container h2 {
         text-align: center;
         margin-bottom: 30px;
         color: #333;
@@ -56,7 +56,7 @@
         outline: none;
     }
 
-    .btn-login {
+    .btn-register {
         width: 100%;
         padding: 12px;
         background-color: #3f51b5;
@@ -69,55 +69,66 @@
         transition: background-color 0.3s ease;
     }
 
-    .btn-login:hover {
+    .btn-register:hover {
         background-color: #2e3ea3;
     }
 
-    .error-message {
-        color: red;
-        font-size: 14px;
-        margin-top: 8px;
-    }
-
-    .login-footer {
+    .register-footer {
         margin-top: 20px;
         text-align: center;
         font-size: 14px;
         color: #555;
     }
 
-    .login-footer a {
+    .register-footer a {
         color: #3f51b5;
         text-decoration: none;
         font-weight: bold;
     }
-
-   
 </style>
 
-<div class="login-container">
-    <h2>Login</h2>
-    <form action="/Authentication/Login/"  method="post">
+<div class="register-container">
+    <h2>Register</h2>
+    <form action="/Authentication/Register" method="post">
         <div class="form-group">
-            <label for="Email">Email</label>
+            <label for="id">ID</label>
+            <input type="number" name="id" id="id" required />
+        </div>
+
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" required />
+        </div>
+
+        <div class="form-group">
+            <label for="phno">Phone Number</label>
+            <input type="text" name="phno" id="phno" required pattern="\d{10}" />
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
             <input type="email" name="email" id="email" required />
         </div>
 
         <div class="form-group">
-            <label for="Password">Password</label>
+            <label for="password">Password</label>
             <input type="password" name="password" id="password" required />
         </div>
 
-        <button type="submit" class="btn-login">Login</button>
+        <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" name="city" id="city" required />
+        </div>
 
-        <!-- Optional error message display -->
-        @if (ViewData["ErrorMessage"] != null)
-        {
-            <div class="error-message">@ViewData["ErrorMessage"]</div>
-        }
+        <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" required />
+        </div>
+
+        <button type="submit" class="btn-register">Register</button>
     </form>
 
-    <div class="login-footer">
-        Don't have an account? <a href="/Authentication/Register">Register</a>
+    <div class="register-footer">
+        Already have an account? <a href="/Authentication/Login">Login</a>
     </div>
 </div>

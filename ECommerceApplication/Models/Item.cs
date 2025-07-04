@@ -5,6 +5,7 @@ namespace ECommerceApplication.Models
         public int ItemId { get; set; }
         public Product product { get; set; }
         public int Quantity{ get; set; }
+    
         public Item()
         {
             ItemId = 0;

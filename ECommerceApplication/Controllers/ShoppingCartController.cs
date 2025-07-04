@@ -12,12 +12,14 @@ public class ShoppingCartController : Controller
     private readonly ILogger<ShoppingCartController> _logger;
     IShoppingCartService _cartsrv;
     IProductService _productsrv;
+    IAuthenticationService _AuthSrv;
 
-    public ShoppingCartController(ILogger<ShoppingCartController> logger, IShoppingCartService cartsrv, IProductService productsrv)
+    public ShoppingCartController(ILogger<ShoppingCartController> logger, IShoppingCartService cartsrv, IProductService productsrv, IAuthenticationService authsrv)
     {
         _logger = logger;
         _cartsrv = cartsrv;
         _productsrv = productsrv;
+        _AuthSrv = authsrv;
     }
 
     public IActionResult Index()
@@ -28,7 +30,9 @@ public class ShoppingCartController : Controller
         }
         else
         {
-            List<Item> items = _cartsrv.getAllItem();
+            Customer user = _AuthSrv.getCustomerByEmail(HttpContext.Session.GetString("Email"));
+
+            List<Item> items = _cartsrv.getAllItem(user.CustomerId);
             ViewData["allItems"] = items;
             return View();
         }
@@ -51,7 +55,8 @@ public class ShoppingCartController : Controller
             UnitPrice = unitprice
         };
         Item item = new Item(product, quantity);
-        bool status = _cartsrv.addItem(item);
+        Customer user = _AuthSrv.getCustomerByEmail(HttpContext.Session.GetString("Email"));
+        bool status = _cartsrv.addItem(item,user.CustomerId);
         if (status)
         {
             return RedirectToAction("index", "Catelog");

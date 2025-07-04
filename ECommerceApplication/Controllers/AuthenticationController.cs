@@ -46,6 +46,27 @@ public class AuthenticationController : Controller
         }
     }
 
+
+    public IActionResult Register()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Register(int id, string name, string phno, string email, string password, string city, DateTime dob)
+    {
+        Customer customer = new Customer(id, name, phno, email, password, city, dob);
+        bool status = _AuthSrv.addCustomer(customer);
+        if (status)
+        {
+            return RedirectToAction("Login", "Authentication");
+        }
+        else
+        {
+            return View();
+        }
+    }
+
     public IActionResult Logout()
     {
         HttpContext.Session.Clear();

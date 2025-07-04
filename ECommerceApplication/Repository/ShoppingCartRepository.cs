@@ -8,18 +8,19 @@ namespace ECommerceApplication.Repository.Interfaces
 {
     public class ShoppingCartRepository : IShoppingCartRepository
     {
-        public bool addItem(Item item)
+        public bool addItem(Item item, int userid)
         {
             bool Status=false;
 
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = conn.CreateCommand();
-            string query= "insert into cart(ItemName, ItemImage,Quantity,UnitPrice,product_id) values(@itemName,@itemImage,@quantity,@unitPrice,@productId)";
+            string query= "insert into cart(ItemName, ItemImage,Quantity,UnitPrice,product_id,user_id) values(@itemName,@itemImage,@quantity,@unitPrice,@productId,@userid)";
             cmd.Parameters.Add(new MySqlParameter("@itemName", item.product.ProductTitle));
             cmd.Parameters.Add(new MySqlParameter("@itemImage", item.product.ProductImage));
             cmd.Parameters.Add(new MySqlParameter("@quantity", item.Quantity));
             cmd.Parameters.Add(new MySqlParameter("@unitPrice", item.product.UnitPrice));
             cmd.Parameters.Add(new MySqlParameter("@productId", item.product.ProductId));
+            cmd.Parameters.Add(new MySqlParameter("@userid", userid));
 
             try
             {
@@ -71,7 +72,7 @@ namespace ECommerceApplication.Repository.Interfaces
             return Status;
         }
 
-        public List<Item> getAllItem()
+        public List<Item> getAllItem(int uid)
         {
             List<Item> items = new List<Item>();
             // implement logic to get all items from database
@@ -79,13 +80,16 @@ namespace ECommerceApplication.Repository.Interfaces
             IDbCommand cmd = new MySqlCommand();
             IDataReader reader = null;
 
-            string query = "select * from cart";
+            string query = "select * from cart where user_id=@userid";
+            
             try
             {
                 conn.Open();
                 cmd.Connection = conn;
                 cmd.CommandText = query;
+                cmd.Parameters.Add(new MySqlParameter("@userid", uid));
                 reader = cmd.ExecuteReader();
+
                 while (reader.Read())
                 {
                     int id = int.Parse(reader["ItemId"].ToString());
@@ -94,6 +98,7 @@ namespace ECommerceApplication.Repository.Interfaces
                     int quantity = int.Parse(reader["Quantity"].ToString());
                     int unitPrice = int.Parse(reader["UnitPrice"].ToString());
                     int productId = int.Parse(reader["product_id"].ToString());
+                    int userid = int.Parse(reader["user_id"].ToString());
                     Product product = new Product
                     {
                         ProductId = productId,
@@ -101,11 +106,11 @@ namespace ECommerceApplication.Repository.Interfaces
                         ProductImage = image,
                         UnitPrice = unitPrice
                     };
-                    items.Add(new Item(id, product,quantity));
-                  
+                    items.Add(new Item(id, product, quantity));
+
                 }
 
-             
+
             }
             catch (Exception e)
             {

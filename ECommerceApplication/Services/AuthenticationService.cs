@@ -14,7 +14,8 @@ namespace ECommerceApplication.Services
         }
         public bool addCustomer(Customer customer)
         {
-            throw new NotImplementedException();
+            bool status = _AuthRepo.addCustomer(customer);
+            return status;
         }
 
         public bool deleteCustomer(int id)

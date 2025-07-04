@@ -10,7 +10,37 @@ namespace ECommerceApplication.Repository
     {
         public bool addCustomer(Customer customer)
         {
-            throw new NotImplementedException();
+            bool status = false;
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            try
+            {
+                cmd.Connection = conn;
+                conn.Open();
+                cmd.CommandText = "INSERT INTO Users VALUES (@id, @name,@phno,@email,@password,@city,@dob)";
+                cmd.Parameters.Add(new MySqlParameter("@id", customer.CustomerId));
+                cmd.Parameters.Add(new MySqlParameter("@name", customer.Name));
+                cmd.Parameters.Add(new MySqlParameter("@phno", customer.PhoneNo));
+                cmd.Parameters.Add(new MySqlParameter("@email", customer.Email));
+                cmd.Parameters.Add(new MySqlParameter("@password", customer.Password));
+                cmd.Parameters.Add(new MySqlParameter("@city", customer.City));
+                cmd.Parameters.Add(new MySqlParameter("@dob", customer.DOB));
+                cmd.ExecuteNonQuery();
+                status = true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+
+            return status;
         }
 
         public bool deleteCustomer(int id)

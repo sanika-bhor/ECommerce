@@ -22,6 +22,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [A:/TAP/GitHub/ECommerce/ECommerceApplication/Views/Category/Beauty_PersonalCare.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQmVhdXR5X1BlcnNvbmFsQ2FyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

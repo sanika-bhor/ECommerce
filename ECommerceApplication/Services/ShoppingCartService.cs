@@ -11,10 +11,10 @@ namespace ECommerceApplication.Services
         {
             _cartrepo = repo;
         }
-        public bool addItem(Item item)
+        public bool addItem(Item item,int userid)
         {
             bool Status = false;
-            Status = _cartrepo.addItem(item);
+            Status = _cartrepo.addItem(item, userid);
             return Status;
         }
 
@@ -24,10 +24,10 @@ namespace ECommerceApplication.Services
             return status;
         }
 
-        public List<Item> getAllItem()
+        public List<Item> getAllItem(int id)
         {
             List<Item> items = new List<Item>();
-            items = (List<Item>)_cartrepo.getAllItem();
+            items = (List<Item>)_cartrepo.getAllItem(id);
             return items;
         }
 
