@@ -45,8 +45,6 @@ public class AuthenticationController : Controller
             return View();
         }
     }
-
-
     public IActionResult Register()
     {
         return View();

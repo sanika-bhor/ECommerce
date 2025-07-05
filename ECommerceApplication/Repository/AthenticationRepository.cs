@@ -165,9 +165,42 @@ namespace ECommerceApplication.Repository
                 return customer;
             }
 
-        public Customer getCustomerByName(string title)
+        public Customer getCustomerByName(string name)
         {
-            throw new NotImplementedException();
+            Customer customer = new Customer();
+            IDbConnection conn = DatabaseConnection.getConnection();
+            IDbCommand cmd = new MySqlCommand();
+            IDataReader reader;
+            try
+            {
+                conn.Open();
+                cmd.Connection = conn;
+                cmd.CommandText = "select * from Users where Customername=@name";
+                cmd.Parameters.Add(new MySqlParameter("@@name", name));
+                reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    customer.CustomerId = int.Parse(reader["CustomerId"].ToString());
+                    customer.Name = reader["name"].ToString();
+                    customer.PhoneNo = reader["PhoneNo"].ToString();
+                    customer.City = reader["City"].ToString();
+                    customer.DOB = Convert.ToDateTime(reader["DOB"]);
+                    customer.Email = reader["Email"].ToString();
+                    customer.Password = reader["Password"].ToString();
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                {
+                    conn.Close();
+                }
+            }
+            return customer;
         }
 
         public bool updateCustomer(Customer customer)
