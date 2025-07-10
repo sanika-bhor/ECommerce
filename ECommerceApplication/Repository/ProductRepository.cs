@@ -12,7 +12,7 @@ namespace ECommerceApplication.Repository
     public class ProductRepository : IProductRepository
     {
         // Initialize products list
-    
+
         //create connection 
         IDbConnection connection;
         public ProductRepository()
@@ -23,7 +23,7 @@ namespace ECommerceApplication.Repository
         //getAll Products Data
         public List<Product> getAllProduct()
         {
-             List<Product> products = new List<Product>();
+            List<Product> products = new List<Product>();
             IDbCommand cmd = new MySqlCommand();
             cmd.CommandText = "select * from product";
             cmd.Connection = connection;
@@ -79,7 +79,7 @@ namespace ECommerceApplication.Repository
             cmd.Connection = conn;
             IDataReader reader = null;
 
-            
+
             try
             {
                 conn.Open();
@@ -321,6 +321,55 @@ namespace ECommerceApplication.Repository
                 }
             }
             return status;
+        }
+
+        public List<Product> getCategoriesProduct(int pid)
+        {
+            List<Product> products = new List<Product>();
+            IDbCommand cmd = new MySqlCommand();
+            cmd.CommandText = " SELECT cp.*FROM CategoryProduct cp JOIN subcategories sc ON cp.SubCategory_id = sc.id WHERE sc.Product_Id = @productid";
+            cmd.Parameters.Add(new MySqlParameter("@productid", pid));
+            cmd.Connection = connection;
+            IDataReader reader = null;
+            try
+            {
+                connection.Open();
+                reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    int id = int.Parse(reader["ProductId"].ToString());
+                    string title = reader["Title"].ToString();
+                    string description = reader["Description"].ToString();
+                    int quantity = int.Parse(reader["Quantity"].ToString());
+                    double unitPrice = double.Parse(reader["UnitPrice"].ToString());
+                    string image = reader["Image"].ToString();
+
+                    Product product = new Product
+                    {
+                        ProductId = id,
+                        ProductTitle = title,
+                        Description = description,
+                        Quantity = quantity,
+                        UnitPrice = unitPrice,
+                        ProductImage = image
+                    };
+
+                    products.Add(product);
+
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
+            finally
+            {
+                if (connection.State == ConnectionState.Open)
+                {
+                    connection.Close();
+                }
+            }
+            return products;
         }
     }
 }

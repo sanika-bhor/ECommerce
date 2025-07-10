@@ -11,5 +11,7 @@ namespace ECommerceApplication.Repository.Interfaces
         bool addProduct(Product product);
         bool updateProduct(Product product);
         bool deleteProduct(int id);
+         List<Product> getCategoriesProduct(int id);
+
     }
 }

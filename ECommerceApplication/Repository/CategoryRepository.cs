@@ -99,7 +99,7 @@ namespace ECommerceApplication.Repository
         }
         public Categories getCategoryByName(string categoryname)
         {
-            Categories category=null;
+            Categories category = null;
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = new MySqlCommand();
             string query = "select * from categories where name=@title";
@@ -227,5 +227,8 @@ namespace ECommerceApplication.Repository
             }
             return status;
         }
+
+       
+
     }
 }

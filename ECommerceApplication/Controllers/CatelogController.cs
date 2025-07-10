@@ -40,12 +40,12 @@ public class CatelogController : Controller
         return View();
     }
 
-    // public IActionResult DetailsWithTitle(string title)
-    // {
-    //     Product product = _srv.getProductByTitle(title);
-    //     ViewData["productByTitle"] = product;
-    //     return View();
-    // }
+    public IActionResult Details(int id)
+    {
+        List<Product> products = _srv.getCategoriesProduct(id);
+        ViewData["productBycategory"] = products;
+        return View();
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

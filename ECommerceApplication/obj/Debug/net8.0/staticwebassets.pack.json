@@ -65,12 +65,28 @@
       "PackagePath": "staticwebassets\\images\\ElectronicDevices\\mobile.png"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\crocs.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\crocs.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\highheels.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\highheels.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\jewellery.png",
       "PackagePath": "staticwebassets\\images\\Fashion\\jewellery.png"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\necklace.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\necklace.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\shoes.png",
       "PackagePath": "staticwebassets\\images\\Fashion\\shoes.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\sneakar.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\sneakar.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\topware.png",

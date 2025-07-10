@@ -4,9 +4,9 @@ using ECommerceApplication.Services.Interfaces;
 
 namespace ECommerceApplication.Services
 {
-    public class ProductServices:IProductService
+    public class ProductServices : IProductService
     {
-        
+
         private readonly IProductRepository _productRepository;
 
         public ProductServices(IProductRepository repo)
@@ -14,7 +14,7 @@ namespace ECommerceApplication.Services
             _productRepository = repo;
         }
 
-        
+
         public List<Product> getAllProduct()
         {
             List<Product> products = new List<Product>();
@@ -57,6 +57,11 @@ namespace ECommerceApplication.Services
             bool status = false;
             status = _productRepository.updateProduct(product);
             return status;
+        }
+        public List<Product> getCategoriesProduct(int pid)
+        {
+            List<Product> products = _productRepository.getCategoriesProduct(pid);
+            return products;
         }
     }
 }
