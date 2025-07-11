@@ -5,7 +5,7 @@ create database ECommerce;
 use ECommerce;
 
 -- create table for product
-CREATE TABLE Product (
+CREATE TABLE product (
     ProductId INT PRIMARY KEY,
     Title VARCHAR(50) NOT NULL,
     Description VARCHAR(1000),
@@ -42,13 +42,61 @@ ItemImage varchar(255),
 Quantity int,
 UnitPrice int,
 product_id int,
-foreign key (product_id) references product(ProductId)
+user_id int,
+foreign key (product_id) references product(ProductId),
+foreign key(user_id) references users(CustomerId)
+);
+
+
+-- create table subcategories for managing different categories
+create table subcategories(
+id int primary key auto_increment, 
+product_id int,
+category_id int, 
+categoryName varchar(100),
+ foreign key (product_id) references product(ProductId),
+ foreign key (category_id) references categories(id)
+ );
+ 
+ -- create table CategoryProduct for managing different categories products
+ CREATE TABLE CategoryProduct (
+    ProductId INT PRIMARY KEY,
+    Title VARCHAR(50) NOT NULL,
+    Description VARCHAR(1000),
+    UnitPrice INT NOT NULL,
+    Quantity INT NOT NULL,
+    image varchar(255),
+    Category_id INT,
+    SubCategory_id int,
+    FOREIGN KEY (Category_id) REFERENCES Categories(id),
+    FOREIGN KEY (SubCategory_id) REFERENCES subcategories(id)
 );
 
 -- describe tables
 desc Product;
 desc Users;
 desc categories;
+desc cart;
+desc subcategories;
+desc CategoryProduct;
+
+-- select data from tables
+select * from categories;
+select * from product;
+select * from Users;
+select * from cart;
+select * from subcategories;
+select * from CategoryProduct;
+
+-- insert into categories table
+insert into categories values(1,"flowers");
+insert into categories values(2, "Electronic Devices");
+insert into categories values(3, "Fashion");
+insert into categories values(4, "Home & Furniture");
+insert into categories values(5, "Beauty & Personal care");
+insert into categories values(6, "Toys & Books");
+insert into categories values(7, "Grocery");
 
 -- use in case of set update mode error
 set SQL_SAFE_UPDATES=0;
+

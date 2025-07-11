@@ -73,7 +73,7 @@ namespace ECommerceApplication.Repository
             Product product = null;
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = new MySqlCommand();
-            string query = "select * from product where ProductId=@id";
+            string query = "select * from CategoryProduct where ProductId=@id";
             cmd.Parameters.Add(new MySqlParameter("@id", pid));
             cmd.CommandText = query;
             cmd.Connection = conn;

@@ -173,6 +173,10 @@
       "PackagePath": "staticwebassets\\images\\flowers\\Mogra.png"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\RainbowSorbet.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\RainbowSorbet.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Rose.png",
       "PackagePath": "staticwebassets\\images\\flowers\\Rose.png"
     },
@@ -181,12 +185,32 @@
       "PackagePath": "staticwebassets\\images\\flowers\\aster.png"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\blackrose.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\blackrose.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\doubledutch.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\doubledutch.jpg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\frenchrose.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\frenchrose.jpg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\hibiscus.png",
       "PackagePath": "staticwebassets\\images\\flowers\\hibiscus.png"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\lily.png",
       "PackagePath": "staticwebassets\\images\\flowers\\lily.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\pinkelegence.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\pinkelegence.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\pinkrose.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\pinkrose.jpg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\tulip.png",
