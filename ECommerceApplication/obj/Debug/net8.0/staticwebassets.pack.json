@@ -41,12 +41,48 @@
       "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Beautyset.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Foundation.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Foundation.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Hair Oil.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Hair Oil.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Lipstick.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Lipstick.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Moisturizer.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Moisturizer.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\NailPolish.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\NailPolish.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Shampoo.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Shampoo.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg",
       "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\cosmetic.jpeg",
       "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\cosmetic.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\facewash.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\facewash.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\kajal.png",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\kajal.png"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\ceilingfan.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\ceilingfan.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\download.jpeg",
@@ -57,16 +93,52 @@
       "PackagePath": "staticwebassets\\images\\ElectronicDevices\\fan.jpeg"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\hp.webp",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\hp.webp"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\iphone.webp",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\iphone.webp"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\laptop.jpeg",
       "PackagePath": "staticwebassets\\images\\ElectronicDevices\\laptop.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\lenovo.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\lenovo.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\minitablefan.webp",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\minitablefan.webp"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\mobile.png",
       "PackagePath": "staticwebassets\\images\\ElectronicDevices\\mobile.png"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\poco.jpg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\poco.jpg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\redmi.webp",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\redmi.webp"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\samsung.jpg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\samsung.jpg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\crocs.jpeg",
       "PackagePath": "staticwebassets\\images\\Fashion\\crocs.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\girlswatch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\girlswatch.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\gowns.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\gowns.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\highheels.jpeg",
@@ -77,24 +149,68 @@
       "PackagePath": "staticwebassets\\images\\Fashion\\jewellery.png"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\kidswatch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\kidswatch.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\necklace.jpeg",
       "PackagePath": "staticwebassets\\images\\Fashion\\necklace.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\rolexwatch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\rolexwatch.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\shoes.png",
       "PackagePath": "staticwebassets\\images\\Fashion\\shoes.png"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\smartwatch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\smartwatch.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\sneakar.jpeg",
       "PackagePath": "staticwebassets\\images\\Fashion\\sneakar.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\tanktop.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\tanktop.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\topware.png",
       "PackagePath": "staticwebassets\\images\\Fashion\\topware.png"
     },
     {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\tshirt.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\tshirt.jpeg"
+    },
+    {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\watch.jpeg",
       "PackagePath": "staticwebassets\\images\\Fashion\\watch.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\Amul.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\Amul.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\Dhara.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\Dhara.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\Fortune.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\Fortune.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\Gemini.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\Gemini.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\SunFlower.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\SunFlower.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\aashirvaad.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\aashirvaad.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\cheese.jpeg",
@@ -103,6 +219,10 @@
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\flour.jpeg",
       "PackagePath": "staticwebassets\\images\\Grocery\\flour.jpeg"
+    },
+    {
+      "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\kisan.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\kisan.jpeg"
     },
     {
       "Id": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\oil.jpeg",
