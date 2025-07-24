@@ -1,9 +1,9 @@
 
 -- create database for ecommerce
-create database ECom;
+create database ECommerce;
 
 -- use Ecommerce
-use ECom;
+use ECommerce;
 
 -- create table for  category
 create table Categories
