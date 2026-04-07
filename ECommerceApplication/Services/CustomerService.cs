@@ -4,11 +4,11 @@ using ECommerceApplication.Services.Interfaces;
 
 namespace ECommerceApplication.Services
 {
-    public class AuthenticationService : IAuthenticationService
+    public class CustomerService : ICustomerService
     {
-        private readonly IAuthenticationRepository _AuthRepo;
+        private readonly ICustomerRepository _AuthRepo;
 
-        public AuthenticationService(IAuthenticationRepository repo)
+        public CustomerService(ICustomerRepository repo)
         {
             _AuthRepo = repo;
         }

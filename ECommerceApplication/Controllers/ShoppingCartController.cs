@@ -12,9 +12,9 @@ public class ShoppingCartController : Controller
     private readonly ILogger<ShoppingCartController> _logger;
     IShoppingCartService _cartsrv;
     IProductService _productsrv;
-    IAuthenticationService _AuthSrv;
+    ICustomerService _AuthSrv;
 
-    public ShoppingCartController(ILogger<ShoppingCartController> logger, IShoppingCartService cartsrv, IProductService productsrv, IAuthenticationService authsrv)
+    public ShoppingCartController(ILogger<ShoppingCartController> logger, IShoppingCartService cartsrv, IProductService productsrv, ICustomerService authsrv)
     {
         _logger = logger;
         _cartsrv = cartsrv;
@@ -69,7 +69,8 @@ public class ShoppingCartController : Controller
 
     public IActionResult Update(int id)
     {
-        Item item = _cartsrv.getItemById(id);
+        Customer user = _AuthSrv.getCustomerByEmail(HttpContext.Session.GetString("Email"));
+        Item item = _cartsrv.getItemById(id,user.CustomerId);
         return View(item);
     }
 
@@ -87,7 +88,7 @@ public class ShoppingCartController : Controller
         bool status = _cartsrv.updateItem(item);
         if (status)
         {
-            return RedirectToAction("index", "Catelog");
+            return RedirectToAction("index", "ShoppingCart");
         }
         else
         {

@@ -3,33 +3,29 @@ namespace ECommerceApplication.Models
     public class Customer
     {
         public int CustomerId { get; set; }
-        public string Name { get; set; }
-        public string PhoneNo { get; set; }
+        public string UserName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public string City { get; set; }
+        public string Address { get; set; }
         public DateTime DOB { get; set; }
 
         public Customer()
         {
             CustomerId = 0;
-            Name = "";
-            PhoneNo = "";
-            Email = "";
+            UserName = "";
             Password = "";
-            City = "";
-            DOB = new DateTime();
+            Email = "";
+            Address = "";
         }
 
-        public Customer(int id, string n, string phno, string e, string pass, string city, DateTime date)
+        public Customer(int id, string username, string password,string email, string address)
         {
             CustomerId = id;
-            Name = n;
-            PhoneNo = phno;
-            Email = e;
-            Password = pass;
-            City = city;
-            DOB = date;
+            UserName = username;
+            Password = password;
+            Email = email;
+            Address = address;
+            
         }
     }
     

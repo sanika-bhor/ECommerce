@@ -1,0 +1,363 @@
+@{
+    ViewData["Title"] = "Order Items";
+    List<OrderItem> items = (List<OrderItem>)ViewData["allOrdersItems"];
+    Order order = (Order)ViewData["order"];
+}
+
+<link rel="stylesheet" href="~/css/NavBarStyle.css" />
+
+<style>
+    body {
+        font-family: 'Poppins', 'Segoe UI', sans-serif;
+        background-color: #0f172a;
+        margin: 0;
+        min-height: 100vh;
+    }
+
+    .main {
+        padding: 40px 20px;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    /* ================= CONTAINER ================= */
+    .invoice-container {
+        background: #0f172a;
+        border-radius: 24px;
+        overflow: hidden;
+        border: 1px solid #334155;
+        animation: fadeIn .5s ease;
+    }
+
+    /* ================= HEADER ================= */
+    .invoice-header {
+        background: linear-gradient(135deg, #6366f1, #8b5cf6, #ec4899);
+        padding: 48px;
+        color: #fff;
+    }
+
+    .back-link {
+        display: inline-block;
+        color: rgba(255, 255, 255, .9);
+        text-decoration: none;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .invoice-title {
+        font-size: 42px;
+        font-weight: 800;
+        margin: 0;
+    }
+
+    .invoice-subtitle {
+        opacity: .85;
+        margin-top: 6px;
+    }
+
+    /* ================= ORDER INFO ================= */
+    .order-info-section {
+        padding: 40px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 32px;
+        border-bottom: 1px solid #334155;
+    }
+
+    .info-title {
+        font-size: 12px;
+        color: #94a3b8;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .info-content {
+        font-size: 16px;
+        color: #e5e7eb;
+        font-weight: 600;
+        margin-top: 6px;
+    }
+
+    .info-highlight {
+        font-size: 24px;
+        font-weight: 800;
+        background: linear-gradient(135deg, #fbbf24, #f59e0b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    /* ================= STATUS ================= */
+    .status-badge {
+        padding: 8px 18px;
+        border-radius: 50px;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .status-pending {
+        background: #64748b;
+        color: #fff;
+    }
+
+    .status-processing {
+        background: #fbbf24;
+        color: #0f172a;
+    }
+
+    .status-shipped {
+        background: #10b981;
+        color: #fff;
+    }
+
+    .status-delivered {
+        background: #22c55e;
+        color: #fff;
+    }
+
+    .status-cancelled {
+        background: #ef4444;
+        color: #fff;
+    }
+
+    /* ================= ITEMS ================= */
+    .items-table-section {
+        padding: 40px;
+    }
+
+    .section-title {
+        font-size: 20px;
+        font-weight: 700;
+        color: #e5e7eb;
+        margin-bottom: 30px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 12px;
+    }
+
+    thead th {
+        padding: 16px;
+        font-size: 12px;
+        color: #94a3b8;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    .item-row {
+        background: #1e293b;
+        border-radius: 14px;
+    }
+
+    .item-row td {
+        padding: 18px;
+    }
+
+    .product-cell {
+        display: flex;
+        gap: 18px;
+        align-items: center;
+    }
+
+    .product-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 12px;
+        object-fit: cover;
+    }
+
+    .product-name {
+        font-size: 16px;
+        font-weight: 600;
+        color: #e5e7eb;
+    }
+
+    .price,
+    .qty {
+        color: #cbd5e1;
+        font-weight: 600;
+    }
+
+    .subtotal {
+        font-weight: 800;
+        color: #fbbf24;
+        font-size: 18px;
+        text-align: right;
+    }
+
+    /* ================= CANCEL ================= */
+    .cancelorder {
+        display: flex;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .cancel-btn {
+        background: linear-gradient(135deg, #ef4444, #dc2626);
+        color: #fff;
+        border: none;
+        padding: 14px 40px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .cancel-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 30px rgba(239, 68, 68, .5);
+    }
+
+    /* ================= EMPTY ================= */
+    .empty-state {
+        padding: 100px 20px;
+        text-align: center;
+        color: #94a3b8;
+    }
+
+    /* ================= ANIM ================= */
+    @@keyframes
+    fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(15px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* ================= MOBILE ================= */
+    @@media
+    (max-width: 768px) {
+        table {
+            display: none;
+        }
+    }
+</style>
+
+<div class="main">
+    <div class="invoice-container">
+
+        <div class="invoice-header">
+            <a href="/OrderProcessing/OrdersDetails" class="back-link">← Back to Orders</a>
+            <h1 class="invoice-title">Order Receipt</h1>
+            <p class="invoice-subtitle">Thank you for your purchase</p>
+        </div>
+
+        @if (order != null)
+        {
+            <div class="order-info-section">
+                <div>
+                    <div class="info-title">Order Number</div>
+                    <div class="info-highlight">#@order.OrderId</div>
+                </div>
+
+                <div>
+                    <div class="info-title">Order Date</div>
+                    <div class="info-content">@order.orderDate.ToString("MMM dd, yyyy")</div>
+                </div>
+
+                <div>
+                    <div class="info-title">Status</div>
+                    <span class="status-badge status-@order.status.ToLower()">@order.status</span>
+                </div>
+
+                <div>
+                    <div class="info-title">Delivery Address</div>
+                    <div class="info-content">@order.Address</div>
+                </div>
+            </div>
+        }
+
+        @if (items != null && items.Count > 0)
+        {
+            <div class="items-table-section">
+                <h2 class="section-title">Order Items (@items.Count)</h2>
+                @if (TempData["ReviewError"] != null)
+                {
+                    <div class="alert alert-danger">@TempData["ReviewError"]</div>
+                }
+                @if (TempData["ReviewMessage"] != null)
+                {
+                    <div class="alert alert-success">@TempData["ReviewMessage"]</div>
+                }
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                            <th style="text-align:right;">Subtotal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in items)
+                        {
+                            var subtotal = item.product.UnitPrice * item.Quantity;
+                            <tr class="item-row">
+                                <td>
+                                    <div class="product-cell">
+                                        <img src="@item.product.ProductImage" class="product-image" />
+                                        <div class="product-name">@item.product.ProductTitle</div>
+                                    </div>
+                                </td>
+                                <td class="qty">@item.Quantity</td>
+                                <td class="price">₹@item.product.UnitPrice.ToString("N2")</td>
+                                <td class="subtotal">₹@subtotal.ToString("N2")</td>
+                            </tr>
+                            <tr class="item-row">
+                                <td colspan="4">
+                                    <form method="post" action="/Review/AddReview" style="display:grid;gap:8px;grid-template-columns:120px 1fr 180px;">
+                                        <input type="hidden" name="productId" value="@item.product.ProductId" />
+                                        <input type="hidden" name="orderId" value="@order?.OrderId" />
+                                        <select name="rating" class="form-control" required>
+                                            <option value="">Rating</option>
+                                            <option value="5">5</option>
+                                            <option value="4">4</option>
+                                            <option value="3">3</option>
+                                            <option value="2">2</option>
+                                            <option value="1">1</option>
+                                        </select>
+                                        <input type="text" name="reviewText" class="form-control" placeholder="Write review for @item.product.ProductTitle" required />
+                                        <button type="submit" class="cancel-btn" style="background:linear-gradient(135deg,#16a34a,#15803d);">Add Review</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                                @if (order != null
+                                            && !string.IsNullOrEmpty(order.status)
+                                            && order.status.ToLower() != "delivered"
+                                    && order.status.ToLower() != "cancelled")
+                                {
+                                    <div class="cancelorder">
+                                        <form asp-action="CancelOrder" asp-controller="OrderProcessing" method="post"
+                                              onsubmit="return confirm('Cancel this order?');">
+                                            <input type="hidden" name="orderId" value="@order.OrderId" />
+                                            <button class="cancel-btn">Cancel Order</button>
+                                        </form>
+                                    </div>
+                                }
+            </div>
+        }
+        else
+        {
+            <div class="empty-state">
+                <h2>No items found</h2>
+                <p>This order has no items.</p>
+            </div>
+        }
+
+    </div>
+</div>

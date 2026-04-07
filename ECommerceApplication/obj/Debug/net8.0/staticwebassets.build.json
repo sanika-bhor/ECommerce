@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+J4gWkoAvelVgB4lr82+mlqD23NnnGt+mKdEQpZtbNE=",
+  "Hash": "2ftB3R2AknlyH5t2nxroadHDF5JmTyRXZfEw0Tlkd14=",
   "Source": "ECommerceApplication",
   "BasePath": "_content/ECommerceApplication",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ECommerceApplication\\wwwroot",
       "Source": "ECommerceApplication",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ECommerceApplication.styles.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ECommerceApplication.styles.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Computed",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "ECommerceApplication.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ECommerceApplication.styles.css"
+      "OriginalItemSpec": "B:\\final\\ECommerceApplication\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ECommerceApplication.styles.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerceApplication.bundle.scp.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerceApplication.bundle.scp.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Computed",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "ECommerceApplication.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerceApplication.bundle.scp.css"
+      "OriginalItemSpec": "B:\\final\\ECommerceApplication\\ECommerceApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ECommerceApplication.bundle.scp.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\about.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\css\\about.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "css/about.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\about.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\CatelogStyle.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\css\\CatelogStyle.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "css/CatelogStyle.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\CatelogStyle.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\homepage.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\css\\homepage.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "css/homepage.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homepage.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\info-pages.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\css\\info-pages.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "css/info-pages.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\info-pages.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\NavBarStyle.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\css\\NavBarStyle.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "css/NavBarStyle.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\NavBarStyle.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\profileStyle.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\css\\profileStyle.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "css/profileStyle.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\profileStyle.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\css\\site.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\css\\site.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\favicon.ico",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\favicon.ico",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_bg.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\about_bg.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/about_bg.jpeg",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about_bg.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\about_us.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\about_us.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/about_us.jpeg",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\images\\about_us.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/aloe_vera_gel.jpeg",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Beautyset.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Beautyset.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/Beautyset.jpeg",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\Beautyset.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\cosmetic.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\cosmetic.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/cosmetic.jpeg",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\cosmetic.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\facewash.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\facewash.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/facewash.jpeg",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\facewash.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Foundation.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Foundation.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/Foundation.jpeg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\Foundation.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Hair Oil.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Hair Oil.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/Hair Oil.jpeg",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\Hair Oil.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\kajal.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\kajal.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/kajal.png",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\kajal.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Lipstick.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Lipstick.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/Lipstick.jpeg",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\Lipstick.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Moisturizer.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Moisturizer.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/Moisturizer.jpeg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\Moisturizer.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\NailPolish.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\NailPolish.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/NailPolish.jpeg",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\NailPolish.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Shampoo.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Shampoo.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Beauty_PersonalCare/Shampoo.jpeg",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Beauty_PersonalCare\\Shampoo.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\contact-bg.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\contact-bg.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/contact-bg.jpeg",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\images\\contact-bg.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\contact-bg.jpg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\contact-bg.jpg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/contact-bg.jpg",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\images\\contact-bg.jpg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\ceilingfan.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\ceilingfan.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/ceilingfan.jpeg",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\ceilingfan.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\download.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\download.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/download.jpeg",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\download.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\fan.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\fan.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/fan.jpeg",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\fan.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\hp.webp",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\hp.webp",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/hp.webp",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\hp.webp"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\iphone.webp",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\iphone.webp",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/iphone.webp",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\iphone.webp"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\laptop.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\laptop.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/laptop.jpeg",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\laptop.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\lenovo.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\lenovo.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/lenovo.jpeg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\lenovo.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\minitablefan.webp",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\minitablefan.webp",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/minitablefan.webp",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\minitablefan.webp"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\mobile.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\mobile.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/mobile.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\mobile.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\poco.jpg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\poco.jpg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/poco.jpg",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\poco.jpg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\redmi.webp",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\redmi.webp",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/redmi.webp",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\redmi.webp"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\samsung.jpg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\samsung.jpg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/ElectronicDevices/samsung.jpg",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ElectronicDevices\\samsung.jpg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\electronics_logo.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\electronics_logo.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/electronics_logo.jpeg",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\images\\electronics_logo.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\fashion_logo.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\fashion_logo.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/fashion_logo.jpeg",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\images\\fashion_logo.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\crocs.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\crocs.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/crocs.jpeg",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\crocs.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\girlswatch.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\girlswatch.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/girlswatch.jpeg",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\girlswatch.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\gowns.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\gowns.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/gowns.jpeg",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\gowns.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\highheels.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\highheels.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/highheels.jpeg",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\highheels.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\jewellery.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\jewellery.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/jewellery.png",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\jewellery.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\kidswatch.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\kidswatch.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/kidswatch.jpeg",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\kidswatch.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\necklace.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\necklace.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/necklace.jpeg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\necklace.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\rolexwatch.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\rolexwatch.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/rolexwatch.jpeg",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\rolexwatch.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\shoes.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\shoes.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/shoes.png",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\shoes.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\smartwatch.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\smartwatch.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/smartwatch.jpeg",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\smartwatch.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\sneakar.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\sneakar.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/sneakar.jpeg",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\sneakar.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\tanktop.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\tanktop.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/tanktop.jpeg",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\tanktop.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\topware.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\topware.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/topware.png",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\topware.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\tshirt.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\tshirt.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/tshirt.jpeg",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\tshirt.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Fashion\\watch.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Fashion\\watch.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Fashion/watch.jpeg",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Fashion\\watch.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\aster.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\aster.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/aster.png",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\aster.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\blackrose.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\blackrose.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/blackrose.jpeg",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\blackrose.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\doubledutch.jpg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\doubledutch.jpg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/doubledutch.jpg",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\doubledutch.jpg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\frenchrose.jpg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\frenchrose.jpg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/frenchrose.jpg",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\frenchrose.jpg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Gerbera.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\Gerbera.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/Gerbera.png",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\Gerbera.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\hibiscus.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\hibiscus.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/hibiscus.png",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\hibiscus.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\lily.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\lily.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/lily.png",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\lily.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Lotus.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\Lotus.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/Lotus.png",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\Lotus.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Mogra.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\Mogra.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/Mogra.png",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\Mogra.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\pinkelegence.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\pinkelegence.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/pinkelegence.jpeg",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\pinkelegence.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\pinkrose.jpg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\pinkrose.jpg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/pinkrose.jpg",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\pinkrose.jpg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\RainbowSorbet.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\RainbowSorbet.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/RainbowSorbet.jpeg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\RainbowSorbet.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\Rose.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\Rose.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/Rose.png",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\Rose.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\flowers\\tulip.png",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\flowers\\tulip.png",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/flowers/tulip.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\images\\flowers\\tulip.png"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\aashirvaad.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\aashirvaad.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/aashirvaad.jpeg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\aashirvaad.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\Amul.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\Amul.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/Amul.jpeg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\Amul.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\cheese.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\cheese.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/cheese.jpeg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\cheese.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\Dhara.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\Dhara.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/Dhara.jpeg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\Dhara.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\flour.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\flour.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/flour.jpeg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\flour.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\Fortune.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\Fortune.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/Fortune.jpeg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\Fortune.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\Gemini.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\Gemini.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/Gemini.jpeg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\Gemini.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\kisan.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\kisan.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/kisan.jpeg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\kisan.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\oil.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\oil.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/oil.jpeg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\oil.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\SunFlower.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\SunFlower.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/SunFlower.jpeg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\SunFlower.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Grocery\\tomato_souse.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Grocery\\tomato_souse.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Grocery/tomato_souse.jpeg",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Grocery\\tomato_souse.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\BedSheet.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\BedSheet.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Home_Farniture/BedSheet.jpeg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Home_Farniture\\BedSheet.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\farniture.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\farniture.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Home_Farniture/farniture.jpeg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Home_Farniture\\farniture.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\lamp.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\lamp.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Home_Farniture/lamp.jpeg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Home_Farniture\\lamp.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\home_logo.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\home_logo.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/home_logo.jpeg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\images\\home_logo.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\privacy-hero.jpg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\privacy-hero.jpg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/privacy-hero.jpg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\images\\privacy-hero.jpg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\cleancode.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\cleancode.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Toys_Books/cleancode.jpeg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Toys_Books\\cleancode.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\letusc.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\letusc.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Toys_Books/letusc.jpeg",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Toys_Books\\letusc.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\teddy.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\teddy.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/Toys_Books/teddy.jpeg",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Toys_Books\\teddy.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user.jpg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\user.jpg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/user.jpg",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user.jpg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user1.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\user1.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/user1.jpeg",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user1.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user2.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\user2.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/user2.jpeg",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user2.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\images\\user3.jpeg",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\images\\user3.jpeg",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "images/user3.jpeg",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\images\\user3.jpeg"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\about.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\js\\about.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "js/about.js",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\js\\about.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\contact.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\js\\contact.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "js/contact.js",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\js\\contact.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\js\\site.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\js\\site.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2430,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2449,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2487,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2506,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2525,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2544,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2563,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2582,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2620,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2639,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2658,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2677,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2696,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2715,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2734,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2753,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2772,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2829,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2848,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2867,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ECommerceApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\wwwroot\\",
+      "ContentRoot": "B:\\final\\ECommerceApplication\\ECommerceApplication\\wwwroot\\",
       "BasePath": "_content/ECommerceApplication",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

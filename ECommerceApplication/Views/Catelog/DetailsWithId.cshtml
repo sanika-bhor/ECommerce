@@ -1,78 +1,313 @@
-
 @{
-    ViewData["Title"] = "Product details Page";
+    ViewData["Title"] = "Product Details";
+
+    Product product = (Product)ViewData["productById"];
+    List<Product> recommendedProducts = ViewData["recommendedProducts"] as List<Product> ?? new List<Product>();
+    List<Review> reviews = ViewData["reviews"] as List<Review> ?? new List<Review>();
+    decimal avgRating = ViewData["avgRating"] as decimal? ?? 0;
 }
-<link rel="stylesheet" href="~/css/CatelogStyle.css" />
 
-<div class="details">
-    @* <h1>Product details</h1> *@
-    @{
+<style>
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f6f7fb;
+    margin: 0;
+}
 
-        Product product = (Product)ViewData["productById"];
-        <div class="cart">
-            @* <h2>@product.ProductName</h2>
-            <img src="@product.Image" width="100" height="100" />
-            <p><b>ProductId:</b> @product.ProductId</p>
-            <p><b>Title: </b>@product.ProductName</p>
-            <p><b>Description:</b> @product.Description</p>
-            <p><b>Price:</b> @product.UnitPrice</p>
-            <p><b>Available stock:</b> @product.Quantity</p>
-            <a href="/Products/Update"><button value="details">Update</button></a> *@
+/* CONTAINER */
+.container {
+    max-width: 1350px;
+    margin: auto;
+    padding: 20px;
+}
 
-            <table>
-                <tr>
-                    <td> 
-                        <table>
-                               <tr>
-                                <td><h2>@product.ProductTitle</h2></td>
-                                </tr>
-                            <tr>
-                                <td>
-                                    <img src="@product.ProductImage" width="100" height="100" />
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
+/* BACK */
+.back {
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* LAYOUT */
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 25px;
+}
+
+/* IMAGE */
+.gallery {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.main-img {
+    width: 100%;
+    height: 380px;
+    object-fit: contain;
+    transition: 0.4s;
+}
+
+.main-img:hover {
+    transform: scale(1.00);
+}
+
+.thumbs {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.thumbs img {
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* DETAILS */
+.details {
+    background: white;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.rating {
+    background: #16a34a;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 30px;
+    color: #b91c1c;
+    margin: 15px 0;
+}
+
+.desc {
+    color: #555;
+}
+
+/* BUY BOX */
+.buy-box {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    position: sticky;
+    top: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+.stock {
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+/* BUTTONS */
+.btn {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cart { background: #ffd814; }
+.buy { background: #fb641b; color: white; }
+.wishlist { background: white; border: 1px solid #ddd; }
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* SECTIONS */
+.section {
+    margin-top: 25px;
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+/* REVIEW FORM */
+.review-form input,
+.review-form textarea,
+.review-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* REVIEWS */
+.review-card {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+/* PRODUCTS */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card img {
+    height: 130px;
+}
+
+/* RESPONSIVE */
+@@media(max-width:1000px){
+    .layout {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<div class="container">
+
+    <a href="/Catelog/index" class="back">← Back</a>
+
+    <div class="layout">
+
+        <!-- IMAGE -->
+        <div class="gallery">
+            <img src="@product.ProductImage" class="main-img" id="mainImg" />
+
+            <div class="thumbs">
+                <img src="@product.ProductImage" onclick="changeImg(this)">
+                <img src="@product.ProductImage" onclick="changeImg(this)">
+                <img src="@product.ProductImage" onclick="changeImg(this)">
+            </div>
+        </div>
+
+        <!-- DETAILS -->
+        <div class="details">
+            <div class="title">@product.ProductTitle</div>
+
+            <div class="rating">⭐ @avgRating (@reviews.Count reviews)</div>
+
+            <div class="price">₹@product.UnitPrice</div>
+
+            <p class="desc">@product.Description</p>
+
+            <ul>
+                <li>✔ Secure Payment</li>
+                <li>✔ Easy Returns</li>
+                <li>✔ Fast Delivery</li>
+            </ul>
+             <h2>₹@product.UnitPrice</h2>
+
+            <div class="stock">
+                @(product.Quantity > 0 ? "✔ In Stock" : "❌ Out of Stock")
+            </div>
+
+            <button class="btn cart"
+                onclick="location.href='/ShoppingCart/Insert/@product.ProductId'">
+                🛒 Add to Cart
+            </button>
+        </div>
 
 
-                    <td>
-                        <table>
-                            <tr>
-                                <td>
-                                     <p><b>ProductId:</b> @product.ProductId</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><b>Title: </b>@product.ProductTitle</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                   <p><b>Description:</b> @product.Description</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><b>Price:</b> @product.UnitPrice</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <p><b>Available stock:</b> @product.Quantity</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    @* <a href="/Products/Update/@product.ProductId"><button value="details">Update</button></a>  *@
-                                    <a href="/ShoppingCart/Insert/@product.ProductId"><button value="details">add to cart</button></a>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
+    </div>
+<!-- 
+  
+    <div class="section review-form">
+        <h3>Write Review</h3>
 
-            </table>
+        <form method="post" action="/Review/AddReview">
+            <input type="hidden" name="productId" value="@product.ProductId" />
+
+            <select name="rating" required>
+                <option value="">Rating</option>
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+            </select>
+
+            <textarea name="reviewText" placeholder="Write review..." required></textarea>
+
+            <button class="btn buy">Submit</button>
+        </form>
+    </div> -->
+
+    <!-- REVIEWS -->
+    <div class="section">
+        <h3>Customer Reviews</h3>
+
+        @if (reviews.Count == 0)
+        {
+            <p>No reviews yet</p>
+        }
+        else
+        {
+            foreach (var r in reviews)
+            {
+                <div class="review-card">
+                    <strong>@r.UserName</strong> ⭐ @r.Rating
+                    <p>@r.ReviewText</p>
+                    <small>@r.CreatedAt.ToShortDateString()</small>
+                </div>
+            }
+        }
+    </div>
+
+    <!-- RECOMMENDED -->
+    @if (recommendedProducts.Count > 0)
+    {
+        <div class="section">
+            <h3>You may also like</h3>
+
+            <div class="products">
+                @foreach (var p in recommendedProducts)
+                {
+                    <a href="/Catelog/DetailsWithId/@p.ProductId">
+                        <div class="card">
+                            <img src="@p.ProductImage" />
+                            <div>@p.ProductTitle</div>
+                            <strong>₹@p.UnitPrice</strong>
+                        </div>
+                    </a>
+                }
+            </div>
         </div>
     }
+
 </div>
+
+<script>
+function changeImg(el){
+    document.getElementById("mainImg").src = el.src;
+}
+</script>

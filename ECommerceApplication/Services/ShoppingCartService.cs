@@ -36,9 +36,9 @@ namespace ECommerceApplication.Services
             throw new NotImplementedException();
         }
 
-        public Item getItemById(int id)
+        public Item getItemById(int id, int userid)
         {
-            Item item = _cartrepo.getItemById(id);
+            Item item = _cartrepo.getItemById(id,userid);
             return item;
         }
 
@@ -52,5 +52,7 @@ namespace ECommerceApplication.Services
             bool status = _cartrepo.updateItem(item);
             return status;
         }
+
+      
     }
 }

@@ -14,19 +14,20 @@ namespace ECommerceApplication.Repository.Interfaces
 
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = conn.CreateCommand();
-            string query= "insert into cart(ItemName, ItemImage,Quantity,UnitPrice,product_id,user_id) values(@itemName,@itemImage,@quantity,@unitPrice,@productId,@userid)";
-            cmd.Parameters.Add(new MySqlParameter("@itemName", item.product.ProductTitle));
-            cmd.Parameters.Add(new MySqlParameter("@itemImage", item.product.ProductImage));
-            cmd.Parameters.Add(new MySqlParameter("@quantity", item.Quantity));
-            cmd.Parameters.Add(new MySqlParameter("@unitPrice", item.product.UnitPrice));
-            cmd.Parameters.Add(new MySqlParameter("@productId", item.product.ProductId));
-            cmd.Parameters.Add(new MySqlParameter("@userid", userid));
-
+       
             try
             {
                 conn.Open();
                 cmd.Connection = conn;
-                cmd.CommandText = query;
+                cmd.CommandText = "AddToCart"; // Procedure name
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                // Add parameters in the correct order
+                cmd.Parameters.Add(new MySqlParameter("uid", userid));
+                cmd.Parameters.Add(new MySqlParameter("pid", item.product.ProductId));
+                cmd.Parameters.Add(new MySqlParameter("stock", item.Quantity));
+                cmd.Parameters.Add(new MySqlParameter("img", item.product.ProductImage));
+
                 cmd.ExecuteNonQuery();
                 Status = true;
             }
@@ -50,9 +51,10 @@ namespace ECommerceApplication.Repository.Interfaces
             try
             {
                 conn.Open();
-                cmd.CommandText = "delete from cart where itemid=@id";
-                cmd.Parameters.Add(new MySqlParameter("@id", id));
                 cmd.Connection = conn;
+                cmd.CommandText = "RemoveFromCart"; // Procedure name
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.Add(new MySqlParameter("pid", id));
                 cmd.ExecuteNonQuery();
                
                 Status = true;
@@ -80,8 +82,18 @@ namespace ECommerceApplication.Repository.Interfaces
             IDbCommand cmd = new MySqlCommand();
             IDataReader reader = null;
 
-            string query = "select * from cart where user_id=@userid";
-            
+            string query = @"select ci.cart_item_id as cart_item_id,
+                                    p.name as productname, 
+                                    ci.itemimage as itemimage,
+                                    ci.quantity as stock ,
+                                    p.price as price ,
+                                    p.id as productid ,
+                                    c.customer_id as customerid 
+                                    from cart c 
+                                    join cart_items ci on c.cart_id = ci.cart_id
+                                    join categoryproduct p on p.id = ci.product_id
+                                    where c.customer_id = @userid; ";
+
             try
             {
                 conn.Open();
@@ -92,13 +104,13 @@ namespace ECommerceApplication.Repository.Interfaces
 
                 while (reader.Read())
                 {
-                    int id = int.Parse(reader["ItemId"].ToString());
-                    string name = reader["ItemName"].ToString();
-                    string image = reader["ItemImage"].ToString();
-                    int quantity = int.Parse(reader["Quantity"].ToString());
-                    int unitPrice = int.Parse(reader["UnitPrice"].ToString());
-                    int productId = int.Parse(reader["product_id"].ToString());
-                    int userid = int.Parse(reader["user_id"].ToString());
+                    int id = int.Parse(reader["cart_item_id"].ToString());
+                    string name = reader["productname"].ToString();
+                    string image = reader["itemimage"].ToString();
+                    int quantity = int.Parse(reader["stock"].ToString());
+                    double unitPrice = double.Parse(reader["price"].ToString());
+                    int productId = int.Parse(reader["productid"].ToString());
+                    int userid = int.Parse(reader["customerid"].ToString());
                     Product product = new Product
                     {
                         ProductId = productId,
@@ -131,7 +143,7 @@ namespace ECommerceApplication.Repository.Interfaces
             throw new NotImplementedException();
         }
 
-        public Item getItemById(int id)
+        public Item getItemById(int id, int userid)
         {
             Item item = null;
             IDbConnection conn = DatabaseConnection.getConnection();
@@ -140,17 +152,32 @@ namespace ECommerceApplication.Repository.Interfaces
             {
                 conn.Open();
                 cmd.Connection = conn;
-                cmd.CommandText = "select * from cart where itemid=@id";
+                //cmd.CommandText = "select * from cart where itemid=@id";
+                string query = @"select ci.cart_item_id as cart_item_id,
+                                    p.name as productname, 
+                                    ci.itemimage as itemimage,
+                                    ci.quantity as stock ,
+                                    p.price as price ,
+                                    p.id as productid ,
+                                    c.customer_id as customerid 
+                                    from cart c 
+                                    join cart_items ci on c.cart_id = ci.cart_id
+                                    join categoryproduct p on p.id = ci.product_id
+                                    where ci.product_id = @id and c.customer_id=@uid";
+
                 cmd.Parameters.Add(new MySqlParameter("@id", id));
+                cmd.Parameters.Add(new MySqlParameter("@uid", userid));
+                cmd.CommandText = query;
                 IDataReader reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    int id1 = int.Parse(reader["itemid"].ToString());
-                    string title = reader["itemname"].ToString();
+                    int id1 = int.Parse(reader["cart_item_id"].ToString());
+                    string title = reader["productname"].ToString();
                     string img = reader["itemimage"].ToString();
-                    int quantity = int.Parse(reader["Quantity"].ToString());
-                    int price = int.Parse(reader["UnitPrice"].ToString());
-                    int productId = int.Parse(reader["product_id"].ToString());
+                    int quantity = int.Parse(reader["stock"].ToString());
+                    double price = double.Parse(reader["price"].ToString());
+                    int productId = int.Parse(reader["productid"].ToString());
+
                     Product product = new Product
                     {
                         ProductId = productId,
@@ -186,7 +213,7 @@ namespace ECommerceApplication.Repository.Interfaces
             IDbConnection conn = DatabaseConnection.getConnection();
             IDbCommand cmd = new MySqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "UPDATE cart SET Quantity=@quantity where product_id=@id";
+            cmd.CommandText = "UPDATE cart_items SET Quantity=@quantity where product_id=@id";
             cmd.Parameters.Add(new MySqlParameter("@quantity", item.Quantity));
             cmd.Parameters.Add(new MySqlParameter("@id", item.product.ProductId));
             try
@@ -210,5 +237,7 @@ namespace ECommerceApplication.Repository.Interfaces
             }
             return status;
         }
+
+      
     }
 }

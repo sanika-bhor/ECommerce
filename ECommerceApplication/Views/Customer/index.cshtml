@@ -1,6 +1,6 @@
 @{
     ViewData["Title"] = "Customers";
-    List<Customer> customers = (List<Customer>)ViewData["allCustomers"];
+    List<Customer> customers = ViewData["allCustomers"] as List<Customer> ?? new List<Customer>();
 }
 
 <link rel="stylesheet" href="~/css/CatelogStyle.css" />
@@ -87,9 +87,8 @@
                     <th>ID</th>
                     <th>Name</th>
                     <th>Email</th>
-                    <th>Phone No</th>
-                    <th>City</th>
-                    <th>Date of Birth</th>
+                    <th>Address</th>
+                   
                 </tr>
             </thead>
             <tbody>
@@ -97,11 +96,9 @@
                 {
                     <tr>
                         <td>@cust.CustomerId</td>
-                        <td>@cust.Name</td>
+                        <td>@cust.UserName</td>
                         <td>@cust.Email</td>
-                        <td>@cust.PhoneNo</td>
-                        <td>@cust.City</td>
-                        <td>@cust.DOB.ToString("dd MMM yyyy")</td>
+                        <td>@cust.Address</td>
                     </tr>
                 }
             </tbody>

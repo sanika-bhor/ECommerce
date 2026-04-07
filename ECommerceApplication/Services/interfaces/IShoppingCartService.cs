@@ -4,6 +4,6 @@ namespace ECommerceApplication.Services.Interfaces
 {
     public interface IShoppingCartService : IShoppingCartRepository
     {
-        
+       
     }
 }

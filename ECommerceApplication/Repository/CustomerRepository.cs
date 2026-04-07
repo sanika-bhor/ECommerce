@@ -6,7 +6,7 @@ using MySql.Data.MySqlClient;
 
 namespace ECommerceApplication.Repository
 {
-    public class AuthenticationRepository : IAuthenticationRepository
+    public class CustomerRepository : ICustomerRepository
     {
         public bool addCustomer(Customer customer)
         {
@@ -17,14 +17,12 @@ namespace ECommerceApplication.Repository
             {
                 cmd.Connection = conn;
                 conn.Open();
-                cmd.CommandText = "INSERT INTO Users VALUES (@id, @name,@phno,@email,@password,@city,@dob)";
+                cmd.CommandText = "INSERT INTO Users(id,username,password,email,address) VALUES (@id, @name,@password,@email,@address)";
                 cmd.Parameters.Add(new MySqlParameter("@id", customer.CustomerId));
-                cmd.Parameters.Add(new MySqlParameter("@name", customer.Name));
-                cmd.Parameters.Add(new MySqlParameter("@phno", customer.PhoneNo));
-                cmd.Parameters.Add(new MySqlParameter("@email", customer.Email));
+                cmd.Parameters.Add(new MySqlParameter("@name", customer.UserName));
                 cmd.Parameters.Add(new MySqlParameter("@password", customer.Password));
-                cmd.Parameters.Add(new MySqlParameter("@city", customer.City));
-                cmd.Parameters.Add(new MySqlParameter("@dob", customer.DOB));
+                cmd.Parameters.Add(new MySqlParameter("@email", customer.Email));
+                cmd.Parameters.Add(new MySqlParameter("@address", customer.Address));
                 cmd.ExecuteNonQuery();
                 status = true;
             }
@@ -62,13 +60,11 @@ namespace ECommerceApplication.Repository
                 while (reader.Read())
                 {
                     Customer customer = new Customer();
-                    customer.CustomerId = int.Parse(reader["CustomerId"].ToString());
-                    customer.Name = reader["name"].ToString();
-                    customer.PhoneNo = reader["PhoneNo"].ToString();
-                    customer.Email = reader["email"].ToString();
+                    customer.CustomerId = int.Parse(reader["id"].ToString());
+                    customer.UserName = reader["username"].ToString();
                     customer.Password = reader["password"].ToString();
-                    customer.City = reader["City"].ToString();
-                    customer.DOB = Convert.ToDateTime(reader["DOB"]);
+                    customer.Email = reader["email"].ToString();
+                    customer.Address = reader["Address"].ToString();
                     customers.Add(customer);
                 }
             }
@@ -101,13 +97,12 @@ namespace ECommerceApplication.Repository
                 if (reader.Read())
                 {
                    
-                    customer.CustomerId = int.Parse(reader["CustomerId"].ToString());
-                    customer.Name = reader["name"].ToString();
-                    customer.PhoneNo = reader["PhoneNo"].ToString();
-                    customer.Email = reader["email"].ToString();
+                    customer.CustomerId = int.Parse(reader["id"].ToString());
+                    customer.UserName = reader["username"].ToString();
                     customer.Password = reader["password"].ToString();
-                    customer.City = reader["City"].ToString();
-                    customer.DOB = Convert.ToDateTime(reader["DOB"]);
+                    customer.Email = reader["email"].ToString();
+                    customer.Address = reader["address"].ToString();
+                   
                     reader.Close();
                 }
             }
@@ -137,18 +132,16 @@ namespace ECommerceApplication.Repository
             {
                 conn.Open();
                 cmd.Connection = conn;
-                cmd.CommandText = "select * from Users where CustomerId=@id";
+                cmd.CommandText = "select * from Users where id=@id";
                 cmd.Parameters.Add(new MySqlParameter("@id", id));
                 reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    customer.CustomerId = int.Parse(reader["CustomerId"].ToString());
-                    customer.Name = reader["name"].ToString();
-                    customer.PhoneNo = reader["PhoneNo"].ToString();
-                    customer.City = reader["City"].ToString();
-                    customer.DOB = Convert.ToDateTime(reader["DOB"]);
-                    customer.Email = reader["Email"].ToString();
+                    customer.CustomerId = int.Parse(reader["id"].ToString());
+                    customer.UserName = reader["username"].ToString();
                     customer.Password = reader["Password"].ToString();
+                    customer.Email = reader["Email"].ToString();
+                    customer.Address = reader["address"].ToString();
                 }
             }
             catch (Exception e)
@@ -165,7 +158,7 @@ namespace ECommerceApplication.Repository
                 return customer;
             }
 
-        public Customer getCustomerByName(string name)
+        public Customer getCustomerByName(string uname)
         {
             Customer customer = new Customer();
             IDbConnection conn = DatabaseConnection.getConnection();
@@ -175,18 +168,16 @@ namespace ECommerceApplication.Repository
             {
                 conn.Open();
                 cmd.Connection = conn;
-                cmd.CommandText = "select * from Users where Customername=@name";
-                cmd.Parameters.Add(new MySqlParameter("@@name", name));
+                cmd.CommandText = "select * from Users where username=@name";
+                cmd.Parameters.Add(new MySqlParameter("@name", uname));
                 reader = cmd.ExecuteReader();
                 if (reader.Read())
                 {
-                    customer.CustomerId = int.Parse(reader["CustomerId"].ToString());
-                    customer.Name = reader["name"].ToString();
-                    customer.PhoneNo = reader["PhoneNo"].ToString();
-                    customer.City = reader["City"].ToString();
-                    customer.DOB = Convert.ToDateTime(reader["DOB"]);
-                    customer.Email = reader["Email"].ToString();
+                    customer.CustomerId = int.Parse(reader["id"].ToString());
+                    customer.UserName = reader["username"].ToString();
                     customer.Password = reader["Password"].ToString();
+                    customer.Email = reader["Email"].ToString();
+                    customer.Address = reader["Address"].ToString();
                 }
             }
             catch (Exception e)
@@ -212,14 +203,12 @@ namespace ECommerceApplication.Repository
             {
                 conn.Open();
                 cmd.Connection = conn;
-                cmd.CommandText = "update Users set Name=@name,PhoneNo=@phno, Email=@email, Password=@password, City=@city, DOB=@dob where Customerid=@id";
+                cmd.CommandText = "update Users set username=@name, password=@password, Email=@email, Address=@address where id=@id";
                 cmd.Parameters.Add(new MySqlParameter("@id", customer.CustomerId));
-                cmd.Parameters.Add(new MySqlParameter("@name", customer.Name));
-                cmd.Parameters.Add(new MySqlParameter("@phno", customer.PhoneNo));
-                cmd.Parameters.Add(new MySqlParameter("@email", customer.Email));
+                cmd.Parameters.Add(new MySqlParameter("@name", customer.UserName));
                 cmd.Parameters.Add(new MySqlParameter("@password", customer.Password));
-                cmd.Parameters.Add(new MySqlParameter("@city", customer.City));
-                cmd.Parameters.Add(new MySqlParameter("@dob", customer.DOB));
+                cmd.Parameters.Add(new MySqlParameter("@email", customer.Email));
+                cmd.Parameters.Add(new MySqlParameter("@address", customer.Address));
                 cmd.ExecuteNonQuery();
                 status = true;
             }

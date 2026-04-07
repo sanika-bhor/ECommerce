@@ -11,9 +11,9 @@ public class CustomerController : Controller
 {
     private readonly ILogger<CustomerController> _logger;
 
-    IAuthenticationService _AuthSrv;
+    ICustomerService _AuthSrv;
 
-    public CustomerController(ILogger<CustomerController> logger, IAuthenticationService authsrv)
+    public CustomerController(ILogger<CustomerController> logger, ICustomerService authsrv)
     {
         _logger = logger;
         _AuthSrv = authsrv;
@@ -53,18 +53,15 @@ public class CustomerController : Controller
 
 
     [HttpPost]
-    public IActionResult Update(int id, string name, string city, string phno, string email, string password,DateTime dob)
+    public IActionResult Update(int id, string name, string password, string email,  string city)
     {
         Customer customer = new Customer
         {
             CustomerId = id,
-            Name = name,
-            City = city,
-            PhoneNo = phno,
-            Email = email,
+            UserName = name,
             Password = password,
-            DOB = dob
-
+            Email = email,
+            Address = city
         };
         
         bool status = _AuthSrv.updateCustomer(customer);

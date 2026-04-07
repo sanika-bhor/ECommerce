@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\ECommerceApplication.csproj": {}
+    "B:\\final\\ECommerceApplication\\ECommerceApplication\\ECommerceApplication.csproj": {}
   },
   "projects": {
-    "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\ECommerceApplication.csproj": {
+    "B:\\final\\ECommerceApplication\\ECommerceApplication\\ECommerceApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\ECommerceApplication.csproj",
+        "projectUniqueName": "B:\\final\\ECommerceApplication\\ECommerceApplication\\ECommerceApplication.csproj",
         "projectName": "ECommerceApplication",
-        "projectPath": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\ECommerceApplication.csproj",
+        "projectPath": "B:\\final\\ECommerceApplication\\ECommerceApplication\\ECommerceApplication.csproj",
         "packagesPath": "C:\\Users\\91997\\.nuget\\packages\\",
-        "outputPath": "A:\\TAP\\GitHub\\ECommerce\\ECommerceApplication\\obj\\",
+        "outputPath": "B:\\final\\ECommerceApplication\\ECommerceApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\91997\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.15.1, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[9.3.0, )"
+            },
+            "Razorpay": {
+              "target": "Package",
+              "version": "[3.3.2, )"
             }
           },
           "imports": [
