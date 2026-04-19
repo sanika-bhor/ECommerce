@@ -1,0 +1,625 @@
+{
+  "Files": [
+    {
+      "Id": "S:\\ECommerceApplication\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\ECommerceApplication.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ECommerceApplication.bundle.scp.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\Rotativa\\README.txt",
+      "PackagePath": "staticwebassets\\Rotativa\\README.txt"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\css\\CatelogStyle.css",
+      "PackagePath": "staticwebassets\\css\\CatelogStyle.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\css\\NavBarStyle.css",
+      "PackagePath": "staticwebassets\\css\\NavBarStyle.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\css\\homepage.css",
+      "PackagePath": "staticwebassets\\css\\homepage.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\css\\info-pages.css",
+      "PackagePath": "staticwebassets\\css\\info-pages.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\css\\profileStyle.css",
+      "PackagePath": "staticwebassets\\css\\profileStyle.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Beautyset.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Beautyset.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Foundation.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Foundation.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Hair Oil.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Hair Oil.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Lipstick.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Lipstick.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Moisturizer.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Moisturizer.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\NailPolish.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\NailPolish.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\Shampoo.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\Shampoo.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\aloe_vera_gel.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\cosmetic.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\cosmetic.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\facewash.jpeg",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\facewash.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Beauty_PersonalCare\\kajal.png",
+      "PackagePath": "staticwebassets\\images\\Beauty_PersonalCare\\kajal.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\ceilingfan.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\ceilingfan.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\download.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\download.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\fan.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\fan.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\hp.webp",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\hp.webp"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\iphone.webp",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\iphone.webp"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\laptop.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\laptop.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\lenovo.jpeg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\lenovo.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\minitablefan.webp",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\minitablefan.webp"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\mobile.png",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\mobile.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\poco.jpg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\poco.jpg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\redmi.webp",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\redmi.webp"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\ElectronicDevices\\samsung.jpg",
+      "PackagePath": "staticwebassets\\images\\ElectronicDevices\\samsung.jpg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\crocs.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\crocs.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\girlswatch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\girlswatch.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\gowns.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\gowns.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\highheels.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\highheels.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\jewellery.png",
+      "PackagePath": "staticwebassets\\images\\Fashion\\jewellery.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\kidswatch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\kidswatch.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\necklace.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\necklace.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\rolexwatch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\rolexwatch.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\shoes.png",
+      "PackagePath": "staticwebassets\\images\\Fashion\\shoes.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\smartwatch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\smartwatch.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\sneakar.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\sneakar.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\tanktop.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\tanktop.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\topware.png",
+      "PackagePath": "staticwebassets\\images\\Fashion\\topware.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\tshirt.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\tshirt.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Fashion\\watch.jpeg",
+      "PackagePath": "staticwebassets\\images\\Fashion\\watch.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\Amul.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\Amul.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\Dhara.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\Dhara.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\Fortune.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\Fortune.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\Gemini.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\Gemini.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\SunFlower.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\SunFlower.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\aashirvaad.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\aashirvaad.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\cheese.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\cheese.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\flour.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\flour.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\kisan.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\kisan.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\oil.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\oil.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Grocery\\tomato_souse.jpeg",
+      "PackagePath": "staticwebassets\\images\\Grocery\\tomato_souse.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\BedSheet.jpeg",
+      "PackagePath": "staticwebassets\\images\\Home_Farniture\\BedSheet.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\farniture.jpeg",
+      "PackagePath": "staticwebassets\\images\\Home_Farniture\\farniture.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Home_Farniture\\lamp.jpeg",
+      "PackagePath": "staticwebassets\\images\\Home_Farniture\\lamp.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\cleancode.jpeg",
+      "PackagePath": "staticwebassets\\images\\Toys_Books\\cleancode.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\letusc.jpeg",
+      "PackagePath": "staticwebassets\\images\\Toys_Books\\letusc.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\Toys_Books\\teddy.jpeg",
+      "PackagePath": "staticwebassets\\images\\Toys_Books\\teddy.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\about_bg.jpeg",
+      "PackagePath": "staticwebassets\\images\\about_bg.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\about_us.jpeg",
+      "PackagePath": "staticwebassets\\images\\about_us.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\contact-bg.jpeg",
+      "PackagePath": "staticwebassets\\images\\contact-bg.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\electronics_logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\electronics_logo.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\fashion_logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\fashion_logo.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\Gerbera.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\Gerbera.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\Lotus.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\Lotus.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\Mogra.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\Mogra.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\RainbowSorbet.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\RainbowSorbet.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\Rose.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\Rose.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\aster.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\aster.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\blackrose.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\blackrose.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\doubledutch.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\doubledutch.jpg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\frenchrose.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\frenchrose.jpg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\hibiscus.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\hibiscus.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\lily.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\lily.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\pinkelegence.jpeg",
+      "PackagePath": "staticwebassets\\images\\flowers\\pinkelegence.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\pinkrose.jpg",
+      "PackagePath": "staticwebassets\\images\\flowers\\pinkrose.jpg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\flowers\\tulip.png",
+      "PackagePath": "staticwebassets\\images\\flowers\\tulip.png"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\home_logo.jpeg",
+      "PackagePath": "staticwebassets\\images\\home_logo.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\privacy-hero.jpg",
+      "PackagePath": "staticwebassets\\images\\privacy-hero.jpg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\user1.jpeg",
+      "PackagePath": "staticwebassets\\images\\user1.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\user2.jpeg",
+      "PackagePath": "staticwebassets\\images\\user2.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\images\\user3.jpeg",
+      "PackagePath": "staticwebassets\\images\\user3.jpeg"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\js\\about.js",
+      "PackagePath": "staticwebassets\\js\\about.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\js\\contact.js",
+      "PackagePath": "staticwebassets\\js\\contact.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "S:\\ECommerceApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.ECommerceApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.ECommerceApplication.props",
+      "PackagePath": "build\\ECommerceApplication.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ECommerceApplication.props",
+      "PackagePath": "buildMultiTargeting\\ECommerceApplication.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.ECommerceApplication.props",
+      "PackagePath": "buildTransitive\\ECommerceApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
